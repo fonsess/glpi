@@ -3720,6 +3720,9 @@ JAVASCRIPT;
             'toadd'     => [],
             'on_change' => '',
             'display'   => true,
+            //'readonly'  => true,
+            //'hide_if_no_elements'   => true, 
+            //'disabled'  => true,
         ];
 
         if (is_array($options) && count($options)) {
@@ -3734,8 +3737,9 @@ JAVASCRIPT;
         }
 
         $items += self::getTypes();
-
-        return Dropdown::showFromArray($name, $items, $params);
+        //ALTERAÇÃO: dropdown de tipo desabilitado
+        return null;
+        //return Dropdown::showFromArray($name, $items, $params);
     }
 
 
@@ -3749,10 +3753,11 @@ JAVASCRIPT;
 
         $options = [
             self::INCIDENT_TYPE => __('Incident'),
-            self::DEMAND_TYPE   => __('Request'),
+            self::DEMAND_TYPE   => __('Josney'),
         ];
 
         return $options;
+        //return [];
     }
 
 
@@ -4436,9 +4441,14 @@ JAVASCRIPT;
      * @param boolean $display            set to false to returne html
      */
     public static function showCentralList($start, $status = "process", bool $showgrouptickets = true, bool $display = true)
-    {
-        global $DB;
+    {   
+        //ALTERAÇÃO: se o usuário não tiver grupos, retornar null para evitar requisição vazia
+        if($showgrouptickets && (count($_SESSION['glpigroups']) == 0)) {
+            return null;
+        }
 
+        global $DB;
+        $tag = new PluginTagTag(); //ALTERAÇÃO: inicializar objeto tag
         if (
             !Session::haveRightsOr(self::$rightname, [CREATE, self::READALL, self::READASSIGN])
             && !Session::haveRightsOr('ticketvalidation', TicketValidation::getValidateRights())
@@ -4462,10 +4472,23 @@ JAVASCRIPT;
             'glpi_tickets_users.users_id' => Session::getLoginUserID(),
             'glpi_tickets_users.type'     => CommonITILActor::OBSERVER
         ];
+        $search_assign_group = [
+            'glpi_groups_tickets.groups_id'  => $_SESSION['glpigroups'],
+            'glpi_groups_tickets.type'       => CommonITILActor::ASSIGN
+        ];
+        $search_requester_group = [
+            'glpi_groups_tickets.groups_id' => $_SESSION['glpigroups'],
+            'glpi_groups_tickets.type'      => CommonITILActor::REQUESTER
+        ];
+        $search_observer_group = [
+            'glpi_groups_tickets.groups_id' => $_SESSION['glpigroups'],
+            'glpi_groups_tickets.type'      => CommonITILActor::OBSERVER
+        ];
 
+        /*
         if ($showgrouptickets) {
             $search_users_id  = [0];
-            $search_assign = [0];
+            //$search_assign = [0];
 
             if (count($_SESSION['glpigroups'])) {
                 $search_assign = [
@@ -4485,173 +4508,354 @@ JAVASCRIPT;
                 }
             }
         }
-
-        switch ($status) {
-            case "waiting": // waiting tickets
-                $WHERE = array_merge(
-                    $WHERE,
-                    $search_assign,
-                    ['glpi_tickets.status' => self::WAITING]
-                );
-                break;
-
-            case "process": // planned or assigned or incoming tickets
-                $WHERE = array_merge(
-                    $WHERE,
-                    $search_assign,
-                    ['glpi_tickets.status' => array_merge(self::getProcessStatusArray(), [self::INCOMING])]
-                );
-
-                break;
-
-            case "toapprove": //tickets waiting for approval
-                $ORWHERE = ['AND' => $search_users_id];
-                if (!$showgrouptickets &&  Session::haveRight('ticket', Ticket::SURVEY)) {
-                    $ORWHERE[] = ['glpi_tickets.users_id_recipient' => Session::getLoginUserID()];
+        */
+        if($showgrouptickets) { //OBTER DADOS DO BANCO PARA A 'VISÃO DE GRUPO'
+            if(count($_SESSION['glpigroups']) == 0) { //se o usuário não tiver grupos, zerar dados para que nada seja exibido
+                $search_assign = [0];
+                $search_assign_group = [0];
+                $search_observer = [0];
+                $search_observer_group = [0];
+                $search_requester_group = [0];
+                $search_users_id = [0];
+            } else {
+                switch ($status) {
+                    case "waiting": // CHAMADOS PENDENTES ATRIBUIDOS AO GRUPO
+                        $WHERE = array_merge(
+                            $WHERE,
+                            $search_assign_group,
+                            ['glpi_tickets.status' => self::WAITING, self::PLANNED]
+                        );
+                        break;
+        
+                    case "process": //CHAMADOS NOVOS OU TRANSFERIDOS DO GRUPO
+                        $WHERE = array_merge(
+                            $WHERE,
+                            $search_assign_group,
+                            ['glpi_tickets.status' => [self::INCOMING]]//['glpi_tickets.status' => array_merge(self::getProcessStatusArray(), [self::INCOMING])]
+                        );
+        
+                        break;
+        
+                    case "toapprove": //CHAMADOS AGUARDANDANDO APROVAÇÃO
+                        $ORWHERE = ['AND' => $search_requester_group];
+                        if (!$showgrouptickets &&  Session::haveRight('ticket', Ticket::SURVEY)) {
+                            $ORWHERE[] = ['glpi_tickets.users_id_recipient' => Session::getLoginUserID()];
+                        }
+                        $WHERE[] = ['OR' => $ORWHERE];
+                        $WHERE['glpi_tickets.status'] = self::SOLVED;
+                        break;
+        
+                    case "tovalidate": // tickets waiting for validation
+                        $JOINS['LEFT JOIN'] = [
+                            'glpi_ticketvalidations' => [
+                                'ON' => [
+                                    'glpi_ticketvalidations'   => 'tickets_id',
+                                    'glpi_tickets'             => 'id'
+                                ]
+                            ]
+                        ];
+                        $WHERE = array_merge(
+                            $WHERE,
+                            [
+                                'users_id_validate'              => Session::getLoginUserID(),
+                                'glpi_ticketvalidations.status'  => CommonITILValidation::WAITING,
+                                'glpi_tickets.global_validation' => CommonITILValidation::WAITING,
+                                'NOT'                            => [
+                                    'glpi_tickets.status'   => [self::SOLVED, self::CLOSED]
+                                ]
+                            ]
+                        );
+                        break;
+        
+                    case "validation.rejected": // tickets with rejected validation (approval)
+                    case "rejected": //old ambiguous key
+                        $WHERE = array_merge(
+                            $WHERE,
+                            $search_assign_group,
+                            [
+                                'glpi_tickets.status'            => ['<>', self::CLOSED],
+                                'glpi_tickets.global_validation' => CommonITILValidation::REFUSED
+                            ]
+                        );
+                        break;
+        
+                    case "solution.rejected": // tickets with rejected solution
+                        $subq = new QuerySubQuery([
+                            'SELECT' => 'last_solution.id',
+                            'FROM'   => 'glpi_itilsolutions AS last_solution',
+                            'WHERE'  => [
+                                'last_solution.items_id'   => new QueryExpression($DB->quoteName('glpi_tickets.id')),
+                                'last_solution.itemtype'   => 'Ticket'
+                            ],
+                            'ORDER'  => 'last_solution.id DESC',
+                            'LIMIT'  => 1
+                        ]);
+        
+                        $JOINS['LEFT JOIN'] = [
+                            'glpi_itilsolutions' => [
+                                'ON' => [
+                                    'glpi_itilsolutions' => 'id',
+                                    $subq
+                                ]
+                            ]
+                        ];
+        
+                        $WHERE = array_merge(
+                            $WHERE,
+                            $search_assign_group,
+                            [
+                                'glpi_tickets.status'         => ['<>', self::CLOSED],
+                                'glpi_itilsolutions.status'   => CommonITILValidation::REFUSED
+                            ]
+                        );
+                        break;
+                    case "observed": //TICKETS REQUISITADOS PELO GRUPO
+                        $WHERE = array_merge(
+                            $WHERE,
+                            $search_requester_group,
+                            [
+                                'glpi_tickets.status'   => [
+                                    self::INCOMING,
+                                    self::PLANNED,
+                                    self::ASSIGNED,
+                                    self::WAITING
+                                ],
+                                'NOT'                   => [
+                                    $search_assign_group//,
+                                    //$search_users_id,
+                                    //$search_observer
+                                ]
+                            ]
+                        );
+                        break;
+        
+                    case "survey": // tickets dont l'enqu??te de satisfaction n'est pas remplie et encore valide
+                        $JOINS['INNER JOIN'] = [
+                            'glpi_ticketsatisfactions' => [
+                                'ON' => [
+                                    'glpi_ticketsatisfactions' => 'tickets_id',
+                                    'glpi_tickets'             => 'id'
+                                ]
+                            ],
+                            'glpi_entities'            => [
+                                'ON' => [
+                                    'glpi_tickets'    => 'entities_id',
+                                    'glpi_entities'   => 'id'
+                                ]
+                            ]
+                        ];
+                        $ORWHERE = ['AND' => $search_users_id];
+                        if (!$showgrouptickets &&  Session::haveRight('ticket', Ticket::SURVEY)) {
+                            $ORWHERE[] = ['glpi_tickets.users_id_recipient' => Session::getLoginUserID()];
+                        }
+                        $WHERE[] = ['OR' => $ORWHERE];
+        
+                        $WHERE = array_merge(
+                            $WHERE,
+                            [
+                                'glpi_tickets.status'   => self::CLOSED,
+                                ['OR'                   => [
+                                    'glpi_entities.inquest_duration' => 0,
+                                    new \QueryExpression(
+                                        'DATEDIFF(ADDDATE(' . $DB->quoteName('glpi_ticketsatisfactions.date_begin') .
+                                        ', INTERVAL ' . $DB->quoteName('glpi_entities.inquest_duration')  . ' DAY), CURDATE()) > 0'
+                                    )
+                                ]
+                                ],
+                                'glpi_ticketsatisfactions.date_answered'  => null
+                            ]
+                        );
+                        break;
+        
+                    case "requestbyself": // on affiche les tickets demand??s le user qui sont planifi??s ou assign??s
+                        // ?? quelqu'un d'autre (exclut les self-tickets)
+        
+                    default:
+                        $WHERE = array_merge(
+                            $WHERE,
+                            $search_assign_group,
+                            [
+                                'glpi_tickets.status'   => [
+                                    //self::INCOMING,
+                                    //self::PLANNED,
+                                    self::ASSIGNED
+                                    //self::WAITING
+                                ]//,
+                                //'NOT' => $search_assign
+                            ]
+                        );
                 }
-                $WHERE[] = ['OR' => $ORWHERE];
-                $WHERE['glpi_tickets.status'] = self::SOLVED;
-                break;
-
-            case "tovalidate": // tickets waiting for validation
-                $JOINS['LEFT JOIN'] = [
-                    'glpi_ticketvalidations' => [
-                        'ON' => [
-                            'glpi_ticketvalidations'   => 'tickets_id',
-                            'glpi_tickets'             => 'id'
+            }
+        } else {
+            switch ($status) {
+                case "waiting": // CHAMADOS ATRIBUIDOS E PENDENTES
+                    $WHERE = array_merge(
+                        $WHERE,
+                        $search_assign,
+                        ['glpi_tickets.status' => self::WAITING, self::PLANNED]
+                    );
+                    break;
+    
+                case "process": //CHAMADOS NOVOS / TRANSFERIDOS
+                    $WHERE = array_merge(
+                        $WHERE,
+                        $search_assign,
+                        ['glpi_tickets.status' => [self::INCOMING]]//['glpi_tickets.status' => array_merge(self::getProcessStatusArray(), [self::INCOMING])]
+                    );
+    
+                    break;
+    
+                case "toapprove": //CHAMADOS AGUARDANDANDO APROVAÇÃO
+                    $ORWHERE = ['AND' => $search_users_id];
+                    if (!$showgrouptickets &&  Session::haveRight('ticket', Ticket::SURVEY)) {
+                        $ORWHERE[] = ['glpi_tickets.users_id_recipient' => Session::getLoginUserID()];
+                    }
+                    $WHERE[] = ['OR' => $ORWHERE];
+                    $WHERE['glpi_tickets.status'] = self::SOLVED;
+                    break;
+    
+                case "tovalidate": // tickets waiting for validation
+                    $JOINS['LEFT JOIN'] = [
+                        'glpi_ticketvalidations' => [
+                            'ON' => [
+                                'glpi_ticketvalidations'   => 'tickets_id',
+                                'glpi_tickets'             => 'id'
+                            ]
                         ]
-                    ]
-                ];
-                $WHERE = array_merge(
-                    $WHERE,
-                    [
-                        'users_id_validate'              => Session::getLoginUserID(),
-                        'glpi_ticketvalidations.status'  => CommonITILValidation::WAITING,
-                        'glpi_tickets.global_validation' => CommonITILValidation::WAITING,
-                        'NOT'                            => [
-                            'glpi_tickets.status'   => [self::SOLVED, self::CLOSED]
+                    ];
+                    $WHERE = array_merge(
+                        $WHERE,
+                        [
+                            'users_id_validate'              => Session::getLoginUserID(),
+                            'glpi_ticketvalidations.status'  => CommonITILValidation::WAITING,
+                            'glpi_tickets.global_validation' => CommonITILValidation::WAITING,
+                            'NOT'                            => [
+                                'glpi_tickets.status'   => [self::SOLVED, self::CLOSED]
+                            ]
                         ]
-                    ]
-                );
-                break;
-
-            case "validation.rejected": // tickets with rejected validation (approval)
-            case "rejected": //old ambiguous key
-                $WHERE = array_merge(
-                    $WHERE,
-                    $search_assign,
-                    [
-                        'glpi_tickets.status'            => ['<>', self::CLOSED],
-                        'glpi_tickets.global_validation' => CommonITILValidation::REFUSED
-                    ]
-                );
-                break;
-
-            case "solution.rejected": // tickets with rejected solution
-                $subq = new QuerySubQuery([
-                    'SELECT' => 'last_solution.id',
-                    'FROM'   => 'glpi_itilsolutions AS last_solution',
-                    'WHERE'  => [
-                        'last_solution.items_id'   => new QueryExpression($DB->quoteName('glpi_tickets.id')),
-                        'last_solution.itemtype'   => 'Ticket'
-                    ],
-                    'ORDER'  => 'last_solution.id DESC',
-                    'LIMIT'  => 1
-                ]);
-
-                $JOINS['LEFT JOIN'] = [
-                    'glpi_itilsolutions' => [
-                        'ON' => [
-                            'glpi_itilsolutions' => 'id',
-                            $subq
+                    );
+                    break;
+    
+                case "validation.rejected": // tickets with rejected validation (approval)
+                case "rejected": //old ambiguous key
+                    $WHERE = array_merge(
+                        $WHERE,
+                        $search_assign,
+                        [
+                            'glpi_tickets.status'            => ['<>', self::CLOSED],
+                            'glpi_tickets.global_validation' => CommonITILValidation::REFUSED
                         ]
-                    ]
-                ];
-
-                $WHERE = array_merge(
-                    $WHERE,
-                    $search_assign,
-                    [
-                        'glpi_tickets.status'         => ['<>', self::CLOSED],
-                        'glpi_itilsolutions.status'   => CommonITILValidation::REFUSED
-                    ]
-                );
-                break;
-            case "observed":
-                $WHERE = array_merge(
-                    $WHERE,
-                    $search_observer,
-                    [
-                        'glpi_tickets.status'   => [
-                            self::INCOMING,
-                            self::PLANNED,
-                            self::ASSIGNED,
-                            self::WAITING
+                    );
+                    break;
+    
+                case "solution.rejected": // tickets with rejected solution
+                    $subq = new QuerySubQuery([
+                        'SELECT' => 'last_solution.id',
+                        'FROM'   => 'glpi_itilsolutions AS last_solution',
+                        'WHERE'  => [
+                            'last_solution.items_id'   => new QueryExpression($DB->quoteName('glpi_tickets.id')),
+                            'last_solution.itemtype'   => 'Ticket'
                         ],
-                        'NOT'                   => [
-                            $search_assign,
-                            $search_users_id
+                        'ORDER'  => 'last_solution.id DESC',
+                        'LIMIT'  => 1
+                    ]);
+    
+                    $JOINS['LEFT JOIN'] = [
+                        'glpi_itilsolutions' => [
+                            'ON' => [
+                                'glpi_itilsolutions' => 'id',
+                                $subq
+                            ]
                         ]
-                    ]
-                );
-                break;
-
-            case "survey": // tickets dont l'enqu??te de satisfaction n'est pas remplie et encore valide
-                $JOINS['INNER JOIN'] = [
-                    'glpi_ticketsatisfactions' => [
-                        'ON' => [
-                            'glpi_ticketsatisfactions' => 'tickets_id',
-                            'glpi_tickets'             => 'id'
+                    ];
+    
+                    $WHERE = array_merge(
+                        $WHERE,
+                        $search_assign,
+                        [
+                            'glpi_tickets.status'         => ['<>', self::CLOSED],
+                            'glpi_itilsolutions.status'   => CommonITILValidation::REFUSED
                         ]
-                    ],
-                    'glpi_entities'            => [
-                        'ON' => [
-                            'glpi_tickets'    => 'entities_id',
-                            'glpi_entities'   => 'id'
+                    );
+                    break;
+                case "observed": //TICKETS REQUISITADOS
+                    $WHERE = array_merge(
+                        $WHERE,
+                        $search_users_id,
+                        [
+                            'glpi_tickets.status'   => [
+                                self::INCOMING,
+                                self::PLANNED,
+                                self::ASSIGNED,
+                                self::WAITING
+                            ],
+                            'NOT'                   => [
+                                $search_assign//,
+                                //$search_users_id,
+                                //$search_observer
+                            ]
                         ]
-                    ]
-                ];
-                $ORWHERE = ['AND' => $search_users_id];
-                if (!$showgrouptickets &&  Session::haveRight('ticket', Ticket::SURVEY)) {
-                    $ORWHERE[] = ['glpi_tickets.users_id_recipient' => Session::getLoginUserID()];
-                }
-                $WHERE[] = ['OR' => $ORWHERE];
-
-                $WHERE = array_merge(
-                    $WHERE,
-                    [
-                        'glpi_tickets.status'   => self::CLOSED,
-                        ['OR'                   => [
-                            'glpi_entities.inquest_duration' => 0,
-                            new \QueryExpression(
-                                'DATEDIFF(ADDDATE(' . $DB->quoteName('glpi_ticketsatisfactions.date_begin') .
-                                ', INTERVAL ' . $DB->quoteName('glpi_entities.inquest_duration')  . ' DAY), CURDATE()) > 0'
-                            )
-                        ]
+                    );
+                    break;
+    
+                case "survey": // tickets dont l'enqu??te de satisfaction n'est pas remplie et encore valide
+                    $JOINS['INNER JOIN'] = [
+                        'glpi_ticketsatisfactions' => [
+                            'ON' => [
+                                'glpi_ticketsatisfactions' => 'tickets_id',
+                                'glpi_tickets'             => 'id'
+                            ]
                         ],
-                        'glpi_ticketsatisfactions.date_answered'  => null
-                    ]
-                );
-                break;
-
-            case "requestbyself": // on affiche les tickets demand??s le user qui sont planifi??s ou assign??s
-                // ?? quelqu'un d'autre (exclut les self-tickets)
-
-            default:
-                $WHERE = array_merge(
-                    $WHERE,
-                    $search_users_id,
-                    [
-                        'glpi_tickets.status'   => [
-                            self::INCOMING,
-                            self::PLANNED,
-                            self::ASSIGNED,
-                            self::WAITING
-                        ],
-                        'NOT' => $search_assign
-                    ]
-                );
+                        'glpi_entities'            => [
+                            'ON' => [
+                                'glpi_tickets'    => 'entities_id',
+                                'glpi_entities'   => 'id'
+                            ]
+                        ]
+                    ];
+                    $ORWHERE = ['AND' => $search_users_id];
+                    if (!$showgrouptickets &&  Session::haveRight('ticket', Ticket::SURVEY)) {
+                        $ORWHERE[] = ['glpi_tickets.users_id_recipient' => Session::getLoginUserID()];
+                    }
+                    $WHERE[] = ['OR' => $ORWHERE];
+    
+                    $WHERE = array_merge(
+                        $WHERE,
+                        [
+                            'glpi_tickets.status'   => self::CLOSED,
+                            ['OR'                   => [
+                                'glpi_entities.inquest_duration' => 0,
+                                new \QueryExpression(
+                                    'DATEDIFF(ADDDATE(' . $DB->quoteName('glpi_ticketsatisfactions.date_begin') .
+                                    ', INTERVAL ' . $DB->quoteName('glpi_entities.inquest_duration')  . ' DAY), CURDATE()) > 0'
+                                )
+                            ]
+                            ],
+                            'glpi_ticketsatisfactions.date_answered'  => null
+                        ]
+                    );
+                    break;
+    
+                case "requestbyself": // on affiche les tickets demand??s le user qui sont planifi??s ou assign??s
+                    // ?? quelqu'un d'autre (exclut les self-tickets)
+    
+                default:
+                    $WHERE = array_merge(
+                        $WHERE,
+                        $search_assign,
+                        [
+                            'glpi_tickets.status'   => [
+                                //self::INCOMING,
+                                //self::PLANNED,
+                                self::ASSIGNED//,
+                                //self::WAITING
+                            ]//,
+                            //'NOT' => $search_assign
+                        ]
+                    );
+            }
         }
+
 
         $criteria = [
             'SELECT'          => ['glpi_tickets.id', 'glpi_tickets.date_mod'],
@@ -4688,7 +4892,7 @@ JAVASCRIPT;
                 'reset'    => 'reset',
             ];
             $forcetab = '';
-            if ($showgrouptickets) {
+            if ($showgrouptickets) { //======VISAO GRUPO========
                 switch ($status) {
                     case "toapprove":
                         $options['criteria'][0]['field']      = 12; // status
@@ -4704,7 +4908,7 @@ JAVASCRIPT;
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                          Toolbox::append_params($options, '&amp;') . "\">" .
-                         Html::makeTitle(__('Your tickets to close'), $displayed_row_count, $total_row_count) . "</a>";
+                         Html::makeTitle(__('Chamados aguardando aprovação'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "waiting":
@@ -4720,10 +4924,11 @@ JAVASCRIPT;
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                          Toolbox::append_params($options, '&amp;') . "\">" .
-                         Html::makeTitle(__('Tickets on pending status'), $displayed_row_count, $total_row_count) . "</a>";
+                         Html::makeTitle(__('Chamados pendentes'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "process":
+                        /*
                         $options['criteria'] = [
                             [
                                 'field'        => 8,
@@ -4749,10 +4954,24 @@ JAVASCRIPT;
                                 ]
                             ]
                         ];
-
+                        */
+                        $options['criteria'] = [
+                            [
+                                'field'        => 8,
+                                'searchtype'   => 'equals',
+                                'value'        => 'mygroups',
+                                'link'         => 'AND',
+                            ],
+                            [
+                                'link'        => 'AND',
+                                'field'       => 12,
+                                'searchtype'  => 'equals',
+                                'value'       => Ticket::INCOMING,
+                            ]
+                        ];
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                          Toolbox::append_params($options, '&amp;') . "\">" .
-                         Html::makeTitle(__('Tickets to be processed'), $displayed_row_count, $total_row_count) . "</a>";
+                         Html::makeTitle(__('Chamados novos ou transferidos'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "observed":
@@ -4761,34 +4980,34 @@ JAVASCRIPT;
                         $options['criteria'][0]['value']      = 'notold';
                         $options['criteria'][0]['link']       = 'AND';
 
-                        $options['criteria'][1]['field']      = 65; // groups_id
+                        $options['criteria'][1]['field']      = 71;//65; // groups_id
                         $options['criteria'][1]['searchtype'] = 'equals';
                         $options['criteria'][1]['value']      = 'mygroups';
                         $options['criteria'][1]['link']       = 'AND';
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                          Toolbox::append_params($options, '&amp;') . "\">" .
-                         Html::makeTitle(__('Your observed tickets'), $displayed_row_count, $total_row_count) . "</a>";
+                         Html::makeTitle(__('Chamados requisitados'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "requestbyself":
                     default:
                         $options['criteria'][0]['field']      = 12; // status
                         $options['criteria'][0]['searchtype'] = 'equals';
-                        $options['criteria'][0]['value']      = 'notold';
+                        $options['criteria'][0]['value']      = 'process';//'notold';
                         $options['criteria'][0]['link']       = 'AND';
 
-                        $options['criteria'][1]['field']      = 71; // groups_id
+                        $options['criteria'][1]['field']      = 8;//71; // groups_id
                         $options['criteria'][1]['searchtype'] = 'equals';
                         $options['criteria'][1]['value']      = 'mygroups';
                         $options['criteria'][1]['link']       = 'AND';
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                         Toolbox::append_params($options, '&amp;') . "\">" .
-                        Html::makeTitle(__('Your tickets in progress'), $displayed_row_count, $total_row_count) . "</a>";
+                        Html::makeTitle(__('Chamados atribuídos'), $displayed_row_count, $total_row_count) . "</a>";
                 }
             } else {
-                switch ($status) {
+                switch ($status) {  //========================= VISÃO PESSOAL ===================================
                     case "waiting":
                         $options['criteria'][0]['field']      = 12; // status
                         $options['criteria'][0]['searchtype'] = 'equals';
@@ -4802,23 +5021,36 @@ JAVASCRIPT;
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                          Toolbox::append_params($options, '&amp;') . "\">" .
-                         Html::makeTitle(__('Tickets on pending status'), $displayed_row_count, $total_row_count) . "</a>";
+                         Html::makeTitle(__('Chamados pendentes'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "process":
+                        /*
                         $options['criteria'][0]['field']      = 5; // users_id_assign
                         $options['criteria'][0]['searchtype'] = 'equals';
                         $options['criteria'][0]['value']      = Session::getLoginUserID();
                         $options['criteria'][0]['link']       = 'AND';
+                        */
+                        $options['criteria'][0]['field']      = 12; // status
+                        $options['criteria'][0]['searchtype'] = 'equals';
+                        $options['criteria'][0]['value']      = 'new';
+                        $options['criteria'][0]['link']       = 'AND';
 
-                        $options['criteria'][1]['field']      = 12; // status
-                        $options['criteria'][1]['searchtype'] = 'equals';
-                        $options['criteria'][1]['value']      = 'process';
-                        $options['criteria'][1]['link']       = 'AND';
+                        $options['criteria'][1]['criteria'][0]['field']      = 5; // users_id_assign
+                        $options['criteria'][1]['criteria'][0]['searchtype'] = 'equals';
+                        $options['criteria'][1]['criteria'][0]['value']      = Session::getLoginUserID();
+                        $options['criteria'][1]['criteria'][0]['link']       = 'OR';
 
-                        $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
-                         Toolbox::append_params($options, '&amp;') . "\">" .
-                         Html::makeTitle(__('Tickets to be processed'), $displayed_row_count, $total_row_count) . "</a>";
+                        $options['criteria'][1]['criteria'][1]['field']      = 8; // groups_id_assign
+                        $options['criteria'][1]['criteria'][1]['searchtype'] = 'equals';
+                        $options['criteria'][1]['criteria'][1]['value']      = 'mygroups';
+                        $options['criteria'][1]['criteria'][1]['link']       = 'OR';
+                        
+                        //ALTERAÇÃO: url de pesquisa inserido manualmente devido a bug que nao pesquisa automaticamente caso o url seja gerado pelo toolbox
+                        $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" . 
+                        "is_deleted=0&as_map=0&browse=0&criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=1&criteria%5B1%5D%5Blink%5D=AND&criteria%5B1%5D%5Bcriteria%5D%5B0%5D%5Blink%5D=AND&criteria%5B1%5D%5Bcriteria%5D%5B0%5D%5Bfield%5D=5&criteria%5B1%5D%5Bcriteria%5D%5B0%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bcriteria%5D%5B0%5D%5Bvalue%5D=2371&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Blink%5D=OR&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Bfield%5D=8&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Bsearchtype%5D=equals&criteria%5B1%5D%5Bcriteria%5D%5B1%5D%5Bvalue%5D=mygroups"//Toolbox::append_params($options, '&amp;') . 
+                        . "\">" .
+                         Html::makeTitle(__('Chamados novos ou transferidos'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "tovalidate":
@@ -4845,7 +5077,7 @@ JAVASCRIPT;
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                         Toolbox::append_params($options, '&amp;') . "\">" .
-                        Html::makeTitle(__('Your tickets to validate'), $displayed_row_count, $total_row_count) . "</a>";
+                        Html::makeTitle(__('Chamados aguardando validação'), $displayed_row_count, $total_row_count) . "</a>";
 
                         break;
 
@@ -4863,7 +5095,7 @@ JAVASCRIPT;
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                         Toolbox::append_params($options, '&amp;') . "\">" .
-                        Html::makeTitle(__('Your tickets having rejected approval status'), $displayed_row_count, $total_row_count) . "</a>";
+                        Html::makeTitle(__('Chamados com validação rejeitada'), $displayed_row_count, $total_row_count) . "</a>";
 
                         break;
 
@@ -4880,7 +5112,7 @@ JAVASCRIPT;
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                         Toolbox::append_params($options, '&amp;') . "\">" .
-                        Html::makeTitle(__('Your tickets having rejected solution'), $displayed_row_count, $total_row_count) . "</a>";
+                        Html::makeTitle(__('Chamados com solução rejeitada'), $displayed_row_count, $total_row_count) . "</a>";
 
                         break;
 
@@ -4909,10 +5141,11 @@ JAVASCRIPT;
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                         Toolbox::append_params($options, '&amp;') . "\">" .
-                        Html::makeTitle(__('Your tickets to close'), $displayed_row_count, $total_row_count) . "</a>";
+                        Html::makeTitle(__('Chamados aguardando aprovação'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "observed":
+                        /*
                         $options['criteria'][0]['field']      = 66; // users_id
                         $options['criteria'][0]['searchtype'] = 'equals';
                         $options['criteria'][0]['value']      = Session::getLoginUserID();
@@ -4922,10 +5155,21 @@ JAVASCRIPT;
                         $options['criteria'][1]['searchtype'] = 'equals';
                         $options['criteria'][1]['value']      = 'notold';
                         $options['criteria'][1]['link']       = 'AND';
+                        */
+                        $options['criteria'][0]['field']      = 4; // users_id
+                        $options['criteria'][0]['searchtype'] = 'equals';
+                        $options['criteria'][0]['value']      = Session::getLoginUserID();
+                        $options['criteria'][0]['link']       = 'AND';
+                        
+
+                        $options['criteria'][1]['field']      = 12; // status
+                        $options['criteria'][1]['searchtype'] = 'equals';
+                        $options['criteria'][1]['value']      = 'notold';
+                        $options['criteria'][1]['link']       = 'AND';
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                         Toolbox::append_params($options, '&amp;') . "\">" .
-                        Html::makeTitle(__('Your observed tickets'), $displayed_row_count, $total_row_count) . "</a>";
+                        Html::makeTitle(__('Chamados requisitados'), $displayed_row_count, $total_row_count) . "</a>";
                         break;
 
                     case "survey":
@@ -4964,19 +5208,22 @@ JAVASCRIPT;
 
                     case "requestbyself":
                     default:
-                        $options['criteria'][0]['field']      = 4; // users_id
+                        
+                        $options['criteria'][0]['field']      = 5; //4; // users_id
                         $options['criteria'][0]['searchtype'] = 'equals';
                         $options['criteria'][0]['value']      = Session::getLoginUserID();
                         $options['criteria'][0]['link']       = 'AND';
+                        
 
                         $options['criteria'][1]['field']      = 12; // status
                         $options['criteria'][1]['searchtype'] = 'equals';
-                        $options['criteria'][1]['value']      = 'notold';
+                        $options['criteria'][1]['value']      = 'process';
                         $options['criteria'][1]['link']       = 'AND';
+                        
 
                         $main_header = "<a href=\"" . Ticket::getSearchURL() . "?" .
                         Toolbox::append_params($options, '&amp;') . "\">" .
-                        Html::makeTitle(__('Your tickets in progress'), $displayed_row_count, $total_row_count) . "</a>";
+                        Html::makeTitle(__('Chamados atribuídos'), $displayed_row_count, $total_row_count) . "</a>";
                 }
             }
 
@@ -5005,7 +5252,7 @@ JAVASCRIPT;
                         'style'     => 'width: 20%'
                     ],
                     [
-                        'content'   => _n('Associated element', 'Associated elements', Session::getPluralNumber()),
+                        'content'   => _n('Setor', 'Setor', Session::getPluralNumber()),//_n('Associated element', 'Associated elements', Session::getPluralNumber()),
                         'style'     => 'width: 20%'
                     ],
                     __('Description')
@@ -5022,10 +5269,37 @@ JAVASCRIPT;
                         'values' => []
                     ];
                     if ($job->getFromDBwithData($data['id'], 0)) {
-                        $bgcolor = $_SESSION["glpipriority_" . $job->fields["priority"]];
-                        $name = sprintf(__('%1$s: %2$s'), __('ID'), $job->fields["id"]);
+                        $ticketStatus = $job->fields["status"];
+                        switch($ticketStatus) {
+                            case 1:
+                                $bgcolor = 'rgb(73, 191, 77)';
+                                $borderColor = $bgcolor;
+                                break;
+                            case 2:
+                                $bgcolor = 'rgba(255, 255, 255, 0)';
+                                $borderColor = 'rgb(73, 191, 77)';
+                                break;
+                            case 4:
+                                $bgcolor = 'rgb(255, 165, 0)';
+                                $borderColor = $bgcolor;
+                                break;
+                            case 5:
+                                $bgcolor = 'rgba(255, 255, 255, 0)';
+                                $borderColor = 'rgb(0, 0, 0)';
+                                break;
+                            case 6:
+                                $bgcolor = 'rgb(0, 0, 0)';
+                                $borderColor = $bgcolor;
+                                break;
+                            default:
+                                $bgcolor = 'pink';
+                                $borderColor = $bgcolor;
+                                break;
+                        }
+                        //$bgcolor = $_SESSION["glpipriority_" . $job->fields["priority"]];
+                        $name = sprintf($job->fields["id"]);//$name = sprintf(__('%1$s: %2$s'), __('ID'), $job->fields["id"]);
                         $row['values'][] = [
-                            'content' => "<div class='priority_block' style='border-color: $bgcolor'><span style='background: $bgcolor'></span>&nbsp;$name</div>"
+                            'content' => "<div class='priority_block' style='border-radius: 5px; border-width: 1px; border-color: $borderColor'><span style='background: $bgcolor'></span>&nbsp;$name</div>"
                         ];
 
                         $requesters = [];
@@ -5067,7 +5341,18 @@ JAVASCRIPT;
                                 }
                             }
                         } else {
-                            $associated_elements[] = __('General');
+                            include GLPI_ROOT . "/plugins/tag/inc/setores.php";
+                            $reqtype = $job->fields['requesttypes_id'];
+                            $associated_elements[] = $tag->getSingleTag($setor[$reqtype]);//__('General');
+                            /*
+                            //Serialização para podermos ver o que tem nos objetos $job e $rectype
+                            $dumpRecType = fopen('dumpRecType.txt', 'w');
+                            fwrite($dumpRecType, serialize($rectype));
+                            fclose($dumpRecType);
+                            $dumpFile = fopen('dumpA.txt', 'w');
+                            fwrite($dumpFile, serialize($job));
+                            fclose($dumpFile);
+                            */
                         }
                         $row['values'][] = implode('<br>', $associated_elements);
 
@@ -5081,7 +5366,7 @@ JAVASCRIPT;
                             __('%1$s (%2$s)'),
                             $link,
                             sprintf(
-                                __('%1$s - %2$s'),
+                                __('%1$s'),//__('%1$s - %2$s'),
                                 $job->numberOfFollowups($showprivate),
                                 $job->numberOfTasks($showprivate)
                             )

@@ -1,0 +1,37 @@
+1698502344
+58064eb45875e6dcf98e407be8df239c4a75a2c6
+a:1:{s:52:"bn_count_Profile89ddd1e8-2c2c-4174-95df-ad3b48719796";s:1063:"      <style>
+         #bn_144009281 {
+            background-color: #e0e0e0;
+            color: #7a7a7a;
+         }
+
+         #bn_144009281:hover {
+            background-color: #bababa;
+            border: 1px solid #949494;
+         }
+
+         .theme-dark #bn_144009281 {
+            background-color: #7a7a7a;
+            color: #e0e0e0;
+         }
+
+         .theme-dark #bn_144009281:hover {
+            background-color: #bababa;
+            color: #7a7a7a;
+            border: 1px solid #949494;
+         }
+      </style>
+      <a href='/front/profile.php?reset=reset'
+         id="bn_144009281"
+         class="card big-number  filter-dates filter-dates_mod"
+         title="">
+         <span class="content">            <span title="23"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">23</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Perfis">Perfis</div>
+         <i class="main-icon ti ti-user-check"></i>
+      </a>";}

@@ -1,0 +1,1002 @@
+1695405410
+438013133844e25f47ec2b30e738e01bd4ac7c8f
+a:1:{s:65:"table_count_tickets_incoming_3dbced15-8c77-4a42-8446-667a15563c57";s:54550:"      <style>
+         #search-table-1904543787 .tab_cadrehov th {
+            background: #ededed;
+         }
+      </style>
+      <div
+         class="card search-table  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         id="search-table-1904543787"
+         style="background-color: #fafafa; color: #545454">
+         <div class='table-container'>
+            <table class="search-results table card-table table-hover table-striped" id="search_60264920">
+      <thead>
+         <tr>
+            
+            
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="2" data-nosort="true" data-sort-order="nosort">
+                                    ID
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="1" data-nosort="true" data-sort-order="nosort">
+                                    Title
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="80" data-nosort="true" data-sort-order="nosort">
+                                    Entity
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="10500" data-nosort="true" data-sort-order="nosort">
+                                    Plugins - Tags
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="12" data-nosort="true" data-sort-order="nosort">
+                                    Status
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="15" data-nosort="true" data-sort-order="nosort">
+                                    Opening Date
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="19" data-nosort="true" data-sort-order="nosort">
+                                    Last Update
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="4" data-nosort="true" data-sort-order="nosort">
+                                    Requester - Requester
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="5" data-nosort="true" data-sort-order="nosort">
+                                    Assigned To - Technician
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="7" data-nosort="true" data-sort-order="nosort">
+                                    Category
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="83" data-nosort="true" data-sort-order="nosort">
+                                    Locations
+                                 </th>
+            
+                                 </tr>
+      </thead>
+      <tbody>
+                                    <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13582</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13582" href="/front/ticket.form.php?id=13582">entregue em maos notebook</a> <div id="contentTicket13582" class="tooltip-invisible"><p>Ramal:-----</p>
+<p>Solicitante: Glaucea</p>
+<p>Ocorrência: Realizada entrega de mouse, notebook e fonte</p>
+<p> </p>
+<p>Fonte de Notebook - 17385</p>
+<p>Notebook - 17659</p>
+<p>Mouse - Sem Patrimonio </p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13582').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13582')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 12:12</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 12:12</span></td>
+
+                                                                                                                              <td valign="top">César Rodrigues de Goes <a id="tooltiplink1752614895" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2323"><span id="tooltip1752614895" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1752614895" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2323" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e05652">
+            CR
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2323">César Rodrigues de Goes</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1752614895').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1752614895')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">Universidade Aberta (M436A)</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13558</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13558" href="/front/ticket.form.php?id=13558">RM não funciona.</a> <div id="contentTicket13558" class="tooltip-invisible"><p>Ramal:7219</p>
+<p>Solicitante:Rosangela.</p>
+<p>Ocorrência: Reclama que o rm não funciona e aparece uma mensagem estranha.</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13558').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13558')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 09:42</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 12:04</span></td>
+
+                                                                                                                              <td valign="top">Julia Elen Ferreira dos Santos <a id="tooltiplink1159382885" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2359"><span id="tooltip1159382885" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1159382885" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2359" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #b7e481">
+            JF
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2359">Julia Elen Ferreira dos Santos</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1159382885').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1159382885')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">RM Totvs / Rubeus</td>
+
+                                                                                                                              <td valign="top">Secretaria Geral</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13580</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13580" href="/front/ticket.form.php?id=13580">Canaleta caiu.</a> <div id="contentTicket13580" class="tooltip-invisible"><p>Ramal:7126</p>
+<p>Solicitante:Berê.</p>
+<p>Ocorrência: Berê relatou que um tempo atrás foram colocar uma canaleta forém hoje caiu.</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13580').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13580')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 11:58</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 11:58</span></td>
+
+                                                                                                                              <td valign="top">Julia Elen Ferreira dos Santos <a id="tooltiplink1998872376" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2359"><span id="tooltip1998872376" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1998872376" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2359" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #b7e481">
+            JF
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2359">Julia Elen Ferreira dos Santos</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1998872376').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1998872376')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">Secretaria de Esportes</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13574</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13574" href="/front/ticket.form.php?id=13574">Laboratórios Compartilhados</a> <div id="contentTicket13574" class="tooltip-invisible"><p>Ramal:</p>
+<p>Solicitante: Laboratórios compartilhados</p>
+<p>Ocorrência: fechamento/manhã/21/09</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13574').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13574')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 11:33</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">22-09-2023 11:33</span></td>
+
+                                                                                                                              <td valign="top">Maria Del Carmen Barreira Grande <a id="tooltiplink689983541" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=634"><span id="tooltip689983541" class="fas fa-info fa-fw"></span></a><div id="contenttooltip689983541" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=634" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e467a6">
+            MD
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=634">Maria Del Carmen Barreira Grande</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Locations" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Default Group" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip689983541').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip689983541')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">Laboratório</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13550</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13550" href="/front/ticket.form.php?id=13550">AVA</a> <div id="contentTicket13550" class="tooltip-invisible"><p>O aluno Pedro Henrique Santana de Lima - RA 100962, matriculado no curso de <span class="ContentPasted3">PÓS GRADUAÇÃO EM ENGENHARIA DA CONFIABILIDADE (INTEGRAL) 2023/2 (24/08/23), está sem o identificador Moodle</span></p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13550').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13550')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">21-09-2023 18:13</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">21-09-2023 18:14</span></td>
+
+                                                                                                                              <td valign="top">Manoel Messias <a id="tooltiplink1275089467" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=317"><span id="tooltip1275089467" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1275089467" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=317" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #d1e87d">
+            MM
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=317">Manoel Messias</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Locations" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Default Group" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1275089467').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1275089467')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">AVA</td>
+
+                                                                                                                              <td valign="top">Suporte Acadêmico</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12965</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12965" href="/front/ticket.form.php?id=12965">Instalar SQL</a> <div id="contentTicket12965" class="tooltip-invisible"><p>Maquina do Douglas necessita do mesmo para gerar as planilhas no RM...</p>
+<p> </p>
+<p>"  SQLNATIVECLIENT  "</p>
+<p> </p>
+<p>Almoxarifado</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12965').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12965')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #ffc800; border: 1px solid #000000; color: #000000">CPD</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">23-08-2023 16:56</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">18-09-2023 09:38</span></td>
+
+                                                                                                                              <td valign="top">César Rodrigues de Goes <a id="tooltiplink2060112909" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2323"><span id="tooltip2060112909" class="fas fa-info fa-fw"></span></a><div id="contenttooltip2060112909" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2323" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e05652">
+            CR
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2323">César Rodrigues de Goes</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip2060112909').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip2060112909')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Manutenção Corretiva</td>
+
+                                                                                                                              <td valign="top">Almoxarifado</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13396</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13396" href="/front/ticket.form.php?id=13396">Verificar catraca - Imaculada</a> <div id="contentTicket13396" class="tooltip-invisible"><div>Prezados Senhores, bom dia</div>
+<div> </div>
+<div>Nossa aluna Carol de Oliveira Abud está com problemas para acessar a Universidade através das catracas, parece-me que o registro dela nao está atualizado. Poderiam verificar?</div>
+<div> </div>
+<div>RA: 175615 - Carol de oliveira Abud</div>
+<div> </div>
+<div>Copiei a aluna ao email p ciencia.</div>
+<div> </div>
+<div id="x_Signature">
+<div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div>
+<div>
+<div>
+<p class="x_MsoNormal">Atenciosamente,</p>
+<p class="x_MsoNormal"> </p>
+<p class="x_MsoNormal"> </p>
+<p class="x_MsoNormal"><strong>Imaculada Scorza</strong></p>
+<p class="x_MsoNormal">Pós-Graduação <em>stricto sensu</em></p>
+<p class="x_MsoNormal"><em>Mestrados, Doutorados e Pós-Doutorados</em></p>
+<p class="x_MsoNormal"><em>Universidade Santa Cecília – UNISANTA</em></p>
+<p class="x_MsoNormal"><em>Rua Cesário Mota, 08 - Bloco "F" - 8º andar - Sala 81</em></p>
+<p class="x_MsoNormal"><em>Santos (SP) - CEP - 11. 045-040 </em></p>
+<p class="x_MsoNormal"><em>(13) 3202-7101 Opção 7</em></p>
+<p class="x_MsoNormal"><em>(13) 98874-2812 whatsapp                           </em></p>
+<p class="x_MsoNormal"><span style="font-size: small;"><a href="mailto:imaculada@unisanta.br" data-linkindex="0">imaculada@unisanta.br</a></span></p>
+<p class="x_MsoNormal"><span style="font-size: small;"> </span></p>
+<p class="x_MsoNormal"><span style="font-size: small;"><a href="/front/document.send.php?docid=1010&amp;itemtype=Ticket&amp;items_id=13396" target="_blank"><img alt="ba9eeeef-1429b84e-65084022326ae3.58181800" width="85" src="/front/document.send.php?docid=1010&amp;itemtype=Ticket&amp;items_id=13396" loading="lazy"></a></span></p>
+</div>
+</div>
+</div>
+</div>
+</div></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13396').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13396')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">18-09-2023 09:18</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">18-09-2023 09:20</span></td>
+
+                                                                                                                              <td valign="top">César Rodrigues de Goes <a id="tooltiplink125310276" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2323"><span id="tooltip125310276" class="fas fa-info fa-fw"></span></a><div id="contenttooltip125310276" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2323" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e05652">
+            CR
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2323">César Rodrigues de Goes</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip125310276').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip125310276')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Catraca</td>
+
+                                                                                                                              <td valign="top">Suporte Helpdesk</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13296</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13296" href="/front/ticket.form.php?id=13296">Liberação de acesso administrativo ao GLPI</a> <div id="contentTicket13296" class="tooltip-invisible"><p>Ramal:</p>
+<p>Solicitante: Leonardo Stringher </p>
+<p>Ocorrência: </p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13296').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13296')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">12-09-2023 12:10</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">13-09-2023 15:07</span></td>
+
+                                                                                                                              <td valign="top">Leonardo Stringher <a id="tooltiplink313906363" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2360"><span id="tooltip313906363" class="fas fa-info fa-fw"></span></a><div id="contenttooltip313906363" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2360" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #7dafe8">
+            LS
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2360">Leonardo Stringher</a>
+                     </h4>
+
+         <div class="text-muted">
+                           <div>
+                  <i class="fas fa-fw fa-envelope"></i>
+                  <a href="mailto:leonardo.stringher@unisanta.br">leonardo.stringher@unisanta.br</a>
+               </div>
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip313906363').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip313906363')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">T.I -  Informatica/Helpdesk</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13328</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13328" href="/front/ticket.form.php?id=13328">Verificar E-mail - verificar rede SALA 420 A</a> <div id="contentTicket13328" class="tooltip-invisible"><p><img src="https://attachments.office.net/owa/helpdesk%40unisanta.br/service.svc/s/GetAttachmentThumbnail?id=AAMkADFmOTg5MDY1LTBlYmEtNDNjMS1hNWM2LWE1ZGVkMmM5ODBjZgBGAAAAAAAfBzRJ13lbSazMaNMl2iTVBwDdyU%2FyX7%2FdTZ7Y2cXoieu%2FACZi0Ef5AABkE8Z%2BA4hJQ6w1YG0ZpNaGAAlOkGiBAAABEgAQANzKw3%2BVlj1Fjd1Cy%2BsrjV8%3D&amp;thumbnailType=2&amp;token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjczRkI5QkJFRjYzNjc4RDRGN0U4NEI0NDBCQUJCMTJBMzM5RDlGOTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjX3VidnZZMmVOVDM2RXRFQzZ1eEtqT2RuNWcifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMmU1ZGQ3N2E1ZDYwNDJmNzljZTQwZjA4N2U2OThkZmEiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEBkYjYzNzMwYi04ZjNiLTQxYTEtYWFkMS1jZmU3Mzc5ZGVhMDkiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjExNTM5MDY2NjA1ODc4ODEyMTBcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCIxZWRlOTcyOC0yMjA1LTQ1ZTAtOGU3Yi1jZTc4YjVmYTA5MGFcIixcInByaW1hcnlzaWRcIjpcIlMtMS01LTIxLTUxNjQ5NTY2My00MjQ3NTU1MTU4LTE0ODU4ODg3MjAtOTM5NDVcIn0iLCJuYmYiOjE2OTQ2MTk0MTYsImV4cCI6MTY5NDYyMDAxNiwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGRiNjM3MzBiLThmM2ItNDFhMS1hYWQxLWNmZTczNzlkZWEwOSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGRiNjM3MzBiLThmM2ItNDFhMS1hYWQxLWNmZTczNzlkZWEwOSIsImhhcHAiOiJvd2EifQ.I37kEKO7E2svCwJsq3mXbHZ98TvD7p5FN4hmSaiHnxtlqZStlME3bwbR6pZEWwH9AvFBySoiY_js4odEki7E8U4lHN0wFXA1OxWMq3O1ujcGbyw6LLSLocvu-1Z5V5Z2D3uGxxiDCBDg76yvXY7bqLT67xirJbi6WG6x5J3bZcHkfa3bdWGjd8tTbFRqZz1MiXmUPN3f6VsssZHh9kLSIFi8ICbDtZeX7auq73neFZHgI2tiHBivL_m4Fp1s7QpxaQdZgFyBOJpiRvsx3oq9umUFeLhHJXX1a9mC1PX2pC8SbhW9tOxFKl06ztxOMlcKW3Qopd_4lacPUfYkp8xR_A&amp;X-OWA-CANARY=GaV3WZ4vRE-64EF6eMEOzKBmOrpvtNsYAcdlNHNgc8SyERBV5oog7pJ7VEGGOcQHR4tjmYU7PsQ.&amp;owa=outlook.office.com&amp;scriptVer=20230904003.13&amp;animation=true" alt="Visualização da imagem" loading="lazy"></p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13328').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13328')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">13-09-2023 12:45</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">13-09-2023 12:45</span></td>
+
+                                                                                                                              <td valign="top">César Rodrigues de Goes <a id="tooltiplink1943723410" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2323"><span id="tooltip1943723410" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1943723410" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2323" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e05652">
+            CR
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2323">César Rodrigues de Goes</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1943723410').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1943723410')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Rede/Conexão</td>
+
+                                                                                                                              <td valign="top">Sala 420 B</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">13327</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket13327" href="/front/ticket.form.php?id=13327">Verificar acesso ao plataforma de notas do professor </a> <div id="contentTicket13327" class="tooltip-invisible"><div class="headerWrapper-1010">
+<div class="root-1034">
+<div class="detailWrapper-1037">
+<div class="ms-Shimmer-container root-825">
+<div class="ms-Shimmer-dataWrapper dataWrapper-1112">
+<div class="ms-TooltipHost root-445" role="none">Leandro Teixeira Andrade</div>
+<div class="subTitle-1069">
+<div class="ms-TooltipHost root-445" role="none"> </div>
+</div>
+<div>
+<div>
+<div data-automation-id="visibleContent">
+<div class="ms-FocusZone css-302 ms-CommandBar root-1064" role="menubar" data-focuszone-id="FocusZone1836">
+<div class="ms-OverflowSet ms-CommandBar-primaryCommand primarySet-524" role="none">
+<div class="ms-OverflowSet-item item-460" role="none">conta quando o mesmo acessa e-mail não cadastrado!</div>
+<div class="ms-OverflowSet-item item-460" role="none"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket13327').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket13327')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><span class="glpi-badge" title="ISESC"><span class="text-nowrap">ISESC</span></span></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="New" data-bs-toggle="tooltip"></i> New</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">13-09-2023 12:02</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">13-09-2023 12:03</span></td>
+
+                                                                                                                              <td valign="top">César Rodrigues de Goes <a id="tooltiplink929821825" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2323"><span id="tooltip929821825" class="fas fa-info fa-fw"></span></a><div id="contenttooltip929821825" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2323" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e05652">
+            CR
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2323">César Rodrigues de Goes</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip929821825').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip929821825')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Portal do Aluno</td>
+
+                                                                                                                              <td valign="top">Suporte Helpdesk</td>
+
+                                       
+                                                   </tr>
+                           </tbody>
+   </table>
+         </div>
+         <span class="main-label">
+            <a href='/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=1&reset=reset'>Incoming tickets</a>
+         </span>
+         <i class="main-icon ti ti-alert-circle"></i>
+      </div>";}

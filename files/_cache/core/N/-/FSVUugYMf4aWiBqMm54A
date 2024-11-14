@@ -1,0 +1,37 @@
+1691851762
+943530646be6fb1b56d0b5beaaefde081b0b709e
+a:1:{s:63:"bn_count_Item_DeviceMemory_dd0ced96-f1f8-4b5f-ac5e-435604450e3b";s:1138:"      <style>
+         #bn_187250179 {
+            background-color: #fafafa;
+            color: #949494;
+         }
+
+         #bn_187250179:hover {
+            background-color: #d4d4d4;
+            border: 1px solid #aeaeae;
+         }
+
+         .theme-dark #bn_187250179 {
+            background-color: #949494;
+            color: #fafafa;
+         }
+
+         .theme-dark #bn_187250179:hover {
+            background-color: #d4d4d4;
+            color: #949494;
+            border: 1px solid #aeaeae;
+         }
+      </style>
+      <a href='/front/item_device.php?itemtype=Item_DeviceMemory&reset=reset'
+         id="bn_187250179"
+         class="card big-number  filter-dates filter-dates_mod filter-location filter-state"
+         title="">
+         <span class="content">            <span title="344"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">344</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Memória itens">Memória itens</div>
+         <i class="main-icon fas fa-memory"></i>
+      </a>";}

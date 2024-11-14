@@ -45,6 +45,21 @@ use Glpi\Toolbox\VersionParser;
 // Be sure to use global objects if this file is included outside normal process
 global $CFG_GLPI, $GLPI, $GLPI_CACHE;
 
+/*
+if (version_compare(PHP_VERSION, '8') >= 0) {
+	ini_set ("error_reporting",  E_ALL & ~E_NOTICE & ~E_USER_NOTICE);                       //Errors below are now USER_NOTICE, not NOTICE.
+	set_error_handler(function($errno, $error){                                             //Custom error handler for WARNINGS.
+		if (str_starts_with($error, 'Undefined array key')){                            //   * Demote "Undefined array key" back to notice. This shouldn't be a warning.
+				trigger_error($error, E_USER_NOTICE);
+		}elseif (str_starts_with($error, 'Trying to access array offset')){             //   * Demote array-offset errors to notice.
+				trigger_error($error, E_USER_NOTICE);
+		}else{  //use default error handler most of the time.
+				return false;
+		}
+		return true;
+	}, E_WARNING);
+}*/
+
 include_once(GLPI_ROOT . "/inc/based_config.php");
 
 Session::setPath();

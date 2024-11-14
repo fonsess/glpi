@@ -1777,7 +1777,7 @@ abstract class CommonITILObject extends CommonDBTM
                                     && !$this->isStatusComputationBlocked($input)
                                 ) {
                                     if (in_array(self::ASSIGNED, array_keys($this->getAllStatusArray()))) {
-                                        $input['status'] = self::ASSIGNED;
+                                        $input['status'] = self::ASSIGNED; //ALTERAÇÃO
                                     }
                                 }
                             }
@@ -1805,7 +1805,7 @@ abstract class CommonITILObject extends CommonDBTM
                                     && !$this->isStatusComputationBlocked($input)
                                 ) {
                                     if (in_array(self::ASSIGNED, array_keys($this->getAllStatusArray()))) {
-                                        $input['status'] = self::ASSIGNED;
+                                        //$input['status'] = self::ASSIGNED; //ALTERAÇÃO
                                     }
                                 }
                             }
@@ -1834,7 +1834,7 @@ abstract class CommonITILObject extends CommonDBTM
                                     && !$this->isStatusComputationBlocked($input)
                                 ) {
                                     if (in_array(self::ASSIGNED, array_keys($this->getAllStatusArray()))) {
-                                        $input['status'] = self::ASSIGNED;
+                                        //$input['status'] = self::ASSIGNED; //ALTERAÇÃO
                                     }
                                 }
                             }
@@ -3405,20 +3405,43 @@ abstract class CommonITILObject extends CommonDBTM
      * @return string|integer Output string if display option is set to false,
      *                        otherwise random part of dropdown id
      **/
+
+    //ALTERAÇÃO: usuário só pode alterar o status manualmente se tiver permissão Session::haveRight('ticket', DELETE)
     public static function dropdownStatus(array $options = [])
     {
-
+        if(Session::haveRight('ticket', PURGE)) {
+            $p = [
+                'name'              => 'status',
+                'showtype'          => 'normal',
+                'display'           => true,
+                'templateResult'    => "templateItilStatus",
+                'templateSelection' => "templateItilStatus",
+            ];
+        } else {
+            $p = [
+                'name'              => 'status',
+                'showtype'          => 'normal',
+                'display'           => true,
+                'templateResult'    => "templateItilStatus",
+                'templateSelection' => "templateItilStatus",
+                'readonly'          => true,
+            ];
+        }
+        /*
         $p = [
             'name'              => 'status',
             'showtype'          => 'normal',
             'display'           => true,
             'templateResult'    => "templateItilStatus",
             'templateSelection' => "templateItilStatus",
+            'readonly'          => true,
         ];
+        */
 
         if (is_array($options) && count($options)) {
             foreach ($options as $key => $val) {
                 $p[$key] = $val;
+                //$p[$key] = null;
             }
         }
 
@@ -3432,9 +3455,11 @@ abstract class CommonITILObject extends CommonDBTM
                     ? $p['value_calculation']
                     : $p['value'];
                 $tab = static::getAllowedStatusArray($current);
+                //$tab = static::getStatus($current);
                 break;
 
             case 'search':
+                $p['readonly'] = false;
                 $tab = static::getAllStatusArray(true);
                 break;
 
@@ -3442,8 +3467,17 @@ abstract class CommonITILObject extends CommonDBTM
                 $tab = static::getAllStatusArray(false);
                 break;
         }
-
+        //$teste = [$tab[$current]];
+        /*
+        if(Session::haveRight('ticket', DELETE)) {
+            return Dropdown::showFromArray($p['name'], $tab, $p);
+        } else {
+            return Dropdown::showFromArray($p['name'], [$tab[$current]], $p);
+        }
+        */
         return Dropdown::showFromArray($p['name'], $tab, $p);
+        //return null;
+        //return Dropdown::showFromArray($teste);
     }
 
 
@@ -8048,8 +8082,14 @@ abstract class CommonITILObject extends CommonDBTM
      *
      * @return void
      */
+    //DESFEITO: ALTERAÇÃO: adicionado verificação para impedir alteração caso usuário não tenha permissão Session::haveRight('ticket', DELETE)
     protected function updateActors(bool $disable_notifications = false)
     {
+        /*
+        if(!Session::haveRight('ticket', DELETE)) {
+            return false;
+        }
+        */
         // Reload actors to be able to categorize users as added/updated/deleted.
         $this->loadActors();
 
@@ -8321,7 +8361,7 @@ abstract class CommonITILObject extends CommonDBTM
                     $self->update(
                         [
                             'id'                              => $this->getID(),
-                            'status'                          => self::ASSIGNED,
+                            //'status'                          => self::ASSIGNED, //ALTERAÇÃO: desativando mudança de status automática
                             '_do_not_compute_takeintoaccount' => $this->isTakeIntoAccountComputationBlocked($this->input),
                             '_from_assignment'                => true
                         ]
@@ -8446,7 +8486,7 @@ abstract class CommonITILObject extends CommonDBTM
             && (in_array($input['status'], $this->getNewStatusArray()))
             && !$this->isStatusComputationBlocked($input)
         ) {
-            $input["status"] = self::ASSIGNED;
+            //$input["status"] = self::ASSIGNED; //ALTERAÇÃO
         }
 
         return $input;

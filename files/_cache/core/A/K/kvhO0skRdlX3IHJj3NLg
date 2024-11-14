@@ -1,0 +1,37 @@
+1698502284
+4d865496281324aac0cf4944a49bc92a05e63240
+a:1:{s:68:"plugin_glpiinventory_nb_printer_40a1ac24-47ac-4cdf-b881-52b671d4b6e0";s:1223:"      <style>
+         #bn_1191276540 {
+            background-color: #606f91;
+            color: #d8dce5;
+         }
+
+         #bn_1191276540:hover {
+            background-color: #8b97b2;
+            border: 1px solid #b9c0d1;
+         }
+
+         .theme-dark #bn_1191276540 {
+            background-color: #d8dce5;
+            color: #606f91;
+         }
+
+         .theme-dark #bn_1191276540:hover {
+            background-color: #8b97b2;
+            color: #d8dce5;
+            border: 1px solid #b9c0d1;
+         }
+      </style>
+      <a href='/front/printer.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=72&criteria%5B0%5D%5Bsearchtype%5D=contains&criteria%5B0%5D%5Bvalue%5D=GLPI%20Native%20Inventory&reset=reset'
+         id="bn_1191276540"
+         class="card big-number "
+         title="">
+         <span class="content">            <span title="77"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">77</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Impressoras inventoried">Impressoras inventoried</div>
+         <i class="main-icon ti ti-printer"></i>
+      </a>";}

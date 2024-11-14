@@ -1,0 +1,37 @@
+1696867092
+83c524d380c7ba7d578e3747e0ba4b7d29737aea
+a:1:{s:60:"bn_count_tickets_notold_c9b5fd9c-81ed-477d-876f-553e480d4a06";s:1279:"      <style>
+         #bn_219445779 {
+            background-color: #e06666;
+            color: #651515;
+         }
+
+         #bn_219445779:hover {
+            background-color: #cf2a2a;
+            border: 1px solid #901d1d;
+         }
+
+         .theme-dark #bn_219445779 {
+            background-color: #651515;
+            color: #e06666;
+         }
+
+         .theme-dark #bn_219445779:hover {
+            background-color: #cf2a2a;
+            color: #651515;
+            border: 1px solid #901d1d;
+         }
+      </style>
+      <a href='/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=notold&reset=reset'
+         id="bn_219445779"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="154"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">154</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Não solucionado">Não solucionado</div>
+         <i class="main-icon ti ti-alert-circle"></i>
+      </a>";}

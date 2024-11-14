@@ -1,0 +1,37 @@
+1698502345
+93e8f2a7d393448414dcf5ccde2142f64b55973e
+a:1:{s:53:"bn_count_Document0103ae16-7ae6-49e8-b268-8a483c1d4064";s:1076:"      <style>
+         #bn_1883778588 {
+            background-color: #b4b4b4;
+            color: #4e4e4e;
+         }
+
+         #bn_1883778588:hover {
+            background-color: #8e8e8e;
+            border: 1px solid #686868;
+         }
+
+         .theme-dark #bn_1883778588 {
+            background-color: #4e4e4e;
+            color: #b4b4b4;
+         }
+
+         .theme-dark #bn_1883778588:hover {
+            background-color: #8e8e8e;
+            color: #4e4e4e;
+            border: 1px solid #686868;
+         }
+      </style>
+      <a href='/front/document.php?reset=reset'
+         id="bn_1883778588"
+         class="card big-number  filter-dates filter-dates_mod"
+         title="">
+         <span class="content">            <span title="1659"
+                  class="formatted-number"
+                  data-precision='1'>
+               <span class="number">1.7</span>
+               <span class="suffix">K</span>
+            </span></span>
+         <div class="label" title="Documentos">Documentos</div>
+         <i class="main-icon ti ti-files"></i>
+      </a>";}

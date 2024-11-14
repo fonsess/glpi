@@ -1,5 +1,15 @@
 <?php
+/*$headers = apache_request_headers();
+foreach($headers as $key_name_header => $key_value_header) {
+	print $key_name_header . " = " . $key_value_header . "<br>";
+}
 
+echo '<br /><hr>';
+
+foreach($_SERVER as $key_name => $key_value) {
+	print $key_name . " = " . $key_value . "<br>";
+}
+*/
 /**
  * ---------------------------------------------------------------------
  *

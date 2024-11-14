@@ -1,0 +1,1061 @@
+1696867093
+a601951aa2a8bc2c3f180f550fe6401bc7d97de6
+a:1:{s:65:"table_count_tickets_incoming_3dbced15-8c77-4a42-8446-667a15563c57";s:84823:"      <style>
+         #search-table-1064550560 .tab_cadrehov th {
+            background: #ededed;
+         }
+      </style>
+      <div
+         class="card search-table  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         id="search-table-1064550560"
+         style="background-color: #fafafa; color: #545454">
+         <div class='table-container'>
+            <table class="search-results table card-table table-hover table-striped" id="search_1755307465">
+      <thead>
+         <tr>
+            
+            
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="2" data-nosort="true" data-sort-order="nosort">
+                                    ID
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="1" data-nosort="true" data-sort-order="nosort">
+                                    Título
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="10500" data-nosort="true" data-sort-order="nosort">
+                                    Plug-ins - Etiquetas
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="12" data-nosort="true" data-sort-order="nosort">
+                                    Status
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="19" data-nosort="true" data-sort-order="nosort">
+                                    Última atualização
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="76665" data-nosort="true" data-sort-order="nosort">
+                                    Plug-ins - .RA - RA
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="5" data-nosort="true" data-sort-order="nosort">
+                                    Atribuído - Técnico
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="7" data-nosort="true" data-sort-order="nosort">
+                                    Categoria
+                                 </th>
+            
+                                 </tr>
+      </thead>
+      <tbody>
+                                    <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14245</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14245" href="/front/ticket.form.php?id=14245">BOLETO DE MATRICULA </a> <div id="contentTicket14245" class="tooltip-invisible"><p>Aluna realizou uma transferência e foi deferido, poderiam disponibilizar o boleto de matricula ?</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14245').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14245')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #e99e85; border: 1px solid #000000; color: #000000">Secretaria EAD</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 12:48</span></td>
+
+                                                                                                                              <td valign="top">234383</td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14243</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14243" href="/front/ticket.form.php?id=14243">Aluna não consegue fazer o exame</a> <div id="contentTicket14243" class="tooltip-invisible"><p>Aluna não consegue fazer o exame</p>
+<p> </p>
+<p>Jessica do Núcleo informou que a aluna 203213 perdeu a data de agendamento e precisa fazer o exame, porém a mesma está informando que não aparece a data de exame.</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14243').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14243')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff">Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 12:34</span></td>
+
+                                                                                                                              <td valign="top">203213</td>
+
+                                                                                                                              <td valign="top">Philip Tirlone <a id="tooltiplink1871430775" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=202"><span id="tooltip1871430775" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1871430775" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=202" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/7e/202_636c37e311d7e_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=202">Philip Tirlone</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1871430775').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1871430775')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14219</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14219" href="/front/ticket.form.php?id=14219">Pedindo senha ao acessar qualquer pagina na web</a> <div id="contentTicket14219" class="tooltip-invisible"><p>Ramal:7236</p>
+<p>Requerente: Alexandre</p>
+<p>Observação: Pedindo senha ao acessar qualquer pagina na web</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14219').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14219')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #477eff; border: 1px solid #ffffff; color: #ffffff">Redes</span><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff"><span style="display:none">, </span>Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 10:22</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14222</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14222" href="/front/ticket.form.php?id=14222">A/C: Setor de Rematrícula/Secretaria - Aluna n]o consegue fazer rematrícula: Maria Luzia</a> <div id="contentTicket14222" class="tooltip-invisible"><div class="long_text"><div>
+<div class="wide-content-host">
+<div class="SlLx9 WWy1F WWy1F" tabindex="-1" aria-label="Mensagem de email">
+<div>
+<div class="DgV2h allowTextSelection l8Tnu">
+<div class="AvaBt">
+<div class="PW01N l8Tnu">
+<div class="o4zjZ ujrct T0iU0"><span class="OZZZK">Leonardo Silva Pimenta</span></div>
+</div>
+</div>
+<div class="lT19A">
+<div class="relTj">
+<div>
+<div>
+<div data-automation-id="visibleContent">
+<div class="ms-FocusZone css-171 ms-CommandBar e7fDs root-472" role="menubar" aria-label="Ações de mensagem" data-focuszone-id="FocusZone7757">
+<div class="ms-OverflowSet ms-CommandBar-primaryCommand Iu2vq primarySet-475" role="none">
+<div class="ms-OverflowSet-item item-173" role="none">
+<div> </div>
+</div>
+<div class="ms-OverflowSet-overflowButton overflowButton-174">
+<div class="ms-TooltipHost root-160" role="none">
+<div class="V1Gxc body-159"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lDdSm l8Tnu">
+<div class="tVyQ7">
+<div class="kcAOr t9ThB" data-testid="RecipientWell">
+<div class="ow896">
+<div class="OFD1l MewUv"><label class="JRNiE WOwiK">Para:</label>
+<ul class="Uy68G">
+<li class="IIvzX CbfW4 Zf4EP Rl1Us DJjCv yHCq2 lpfu1">
+<div class="IIvzX">Help Desk - UNISANTA</div>
+</li>
+</ul>
+<div class="dQqlA"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="srQCs">
+<div class="AL_OM l8Tnu I1wdR" data-testid="SentReceivedSavedTime">Seg, 09/10/2023 09:37</div>
+<div class="ug93r"> </div>
+</div>
+</div>
+</div>
+<div class="l8Tnu T3idP"> </div>
+<div id="UniqueMessageBody" class="XbIp4 jmmB7 GNqVo yxtKT allowTextSelection" tabindex="-1" role="document" aria-label="Corpo da mensagem">
+<div>
+<div>
+<div dir="ltr">
+<div>Bom dia</div>
+<div> </div>
+<div>Poderia verificar por gentileza.</div>
+<div>
+<div> </div>
+<div id="x_Signature">
+<div>
+<div>  Atenciosamente,</div>
+<div>  Leonardo Pimenta.</div>
+<div> </div>
+<div><strong> </strong><strong> </strong><strong>Gestão de Polos</strong></div>
+<strong><img class="Do8Zj" src="https://attachments.office.net/owa/helpdesk%40unisanta.br/service.svc/s/GetAttachmentThumbnail?id=AAMkADFmOTg5MDY1LTBlYmEtNDNjMS1hNWM2LWE1ZGVkMmM5ODBjZgBGAAAAAAAfBzRJ13lbSazMaNMl2iTVBwDdyU%2FyX7%2FdTZ7Y2cXoieu%2FACZi0Ef5AABkE8Z%2BA4hJQ6w1YG0ZpNaGAAliXg0JAAABEgAQAF%2BYv2hACqRDlFcf7QPtrcs%3D&amp;thumbnailType=2&amp;token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjczRkI5QkJFRjYzNjc4RDRGN0U4NEI0NDBCQUJCMTJBMzM5RDlGOTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjX3VidnZZMmVOVDM2RXRFQzZ1eEtqT2RuNWcifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiYjQ3Yjg2ZGJhMjRkNGNmOTk4MzVmYWUxZDYwNmM4ZWMiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEBkYjYzNzMwYi04ZjNiLTQxYTEtYWFkMS1jZmU3Mzc5ZGVhMDkiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjExNTM5MDY2NjA1ODc4ODEyMTBcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCIxZWRlOTcyOC0yMjA1LTQ1ZTAtOGU3Yi1jZTc4YjVmYTA5MGFcIixcInByaW1hcnlzaWRcIjpcIlMtMS01LTIxLTUxNjQ5NTY2My00MjQ3NTU1MTU4LTE0ODU4ODg3MjAtOTM5NDVcIn0iLCJuYmYiOjE2OTY4NTU1NzUsImV4cCI6MTY5Njg1NjE3NSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGRiNjM3MzBiLThmM2ItNDFhMS1hYWQxLWNmZTczNzlkZWEwOSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGRiNjM3MzBiLThmM2ItNDFhMS1hYWQxLWNmZTczNzlkZWEwOSIsImhhcHAiOiJvd2EifQ.o5HjqKpQ_tYEVEDzZM20cdzj2A5UNwFtu5i4VK6NmdOhMOK_x_z08aze1GelpnOdIFGj7OJhm4_Oyym8eChPmtSecCarpZtcAWSorcqzN-PxW6eedxsn6loEFqnd-Ux3-zxr5HKUVHIqjPi-K4W9qA6-gP_zhyn_Q_xCDXq-Yzi5bJgM2OsgtEk_LHSlN_97gq5UGIKxsUW8gB-3ChFdmBTS4SMBkjeqBxxCSV9yWT-Krr_MYXcr3rgCWGRL7iSKam08uKIlfTTCGcysxi4RNgw7my-1eALbWVjliizZW_pgvVXjKpslLd0PrKRDHepO5HAtP12dIHGzZucii3UtOw&amp;X-OWA-CANARY=EljXgL5-6k6UuzMCv7c__FBhzfLFyNsY-NWrBVEWr05zKsfJH7e1t751C-tE0zmVyaFg7Vo1Pps.&amp;owa=outlook.office.com&amp;scriptVer=20230922005.25&amp;animation=true" alt="image" crossorigin="use-credentials" data-imagetype="AttachmentByCid" data-custom="AAMkADFmOTg5MDY1LTBlYmEtNDNjMS1hNWM2LWE1ZGVkMmM5ODBjZgBGAAAAAAAfBzRJ13lbSazMaNMl2iTVBwDdyU%2FyX7%2FdTZ7Y2cXoieu%2FACZi0Ef5AABkE8Z%2BA4hJQ6w1YG0ZpNaGAAliXg0JAAABEgAQAF%2BYv2hACqRDlFcf7QPtrcs%3D" data-outlook-trace="F:8|T:8" loading="lazy"></strong></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="g4Y3U"> </div>
+</div>
+</div>
+</div>
+<div class="">
+<div class="wide-content-host">
+<div class="kNgIO">
+<div class="wnVEW">
+<div class="VyATD"> </div>
+<div class="w4BZ9">
+<div class="T31hC GNqVo yxtKT allowTextSelection" tabindex="-1" role="document" aria-label="Corpo da mensagem">
+<div>
+<div>
+<div dir="ltr">
+<div id="x_divRplyFwdMsg" dir="ltr"><span style="color: black; font-family: Calibri,sans-serif;"><strong>De:</strong> Polo São Tiago - Unisanta &lt;saotiago@unisanta.br&gt;<br aria-hidden="true"><strong>Enviado:</strong> domingo, 8 de outubro de 2023 22:21<br aria-hidden="true"><strong>Para:</strong> Ead Polos - UNISANTA &lt;eadpolos@unisanta.br&gt;<br aria-hidden="true"><strong>Assunto:</strong> A/C: Setor de Rematrícula/Secretaria - Aluna n]o consegue fazer rematrícula: Maria Luzia</span>
+<div aria-hidden="true"> </div>
+</div>
+<div dir="ltr">
+<div> </div>
+<div>Prezados:</div>
+<div> </div>
+<div>A aluna abaixo não consegue fazer a rematrícula, podem orientá-la de como proceder, por favor?</div>
+<div> </div>
+<p><strong>225853</strong><strong> </strong></p>
+<p>Maria Luzia de Oliveira </p>
+<p>Licenciatura em Pedagogia (INTEGRAL)mo225853@alunos.unisanta.b</p>
+<div> </div>
+<div>Vejam como fica:</div>
+<div> </div>
+<div><img id="ba9eeeef-1429b84e-6523f7f0398ad1.84033376" class="Do8Zj" src="data:image/png;base64,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" alt="image" crossorigin="use-credentials" data-imagetype="AttachmentByCid" data-custom="AAMkADFmOTg5MDY1LTBlYmEtNDNjMS1hNWM2LWE1ZGVkMmM5ODBjZgBGAAAAAAAfBzRJ13lbSazMaNMl2iTVBwDdyU%2FyX7%2FdTZ7Y2cXoieu%2FACZi0Ef5AABkE8Z%2BA4hJQ6w1YG0ZpNaGAAliXg0JAAABEgAQAA8qgdY9XQ5Gqj6Ao5Bgmh8%3D" data-outlook-trace="F:2|T:2" data-upload_id="0.9281203383993524" loading="lazy"></div>
+<div> </div>
+<div>Não valida a senha.</div>
+<div> </div>
+<div>Desde já obrigado!</div>
+<div> </div>
+<div>Marcus</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <p class="read_more">
+        <span class="read_more_button">...</span>
+    </p>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function() { read_more(); });
+
+//]]>
+</script></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14222').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14222')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff">Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 09:57</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Matheus Gavioli Ferreira <a id="tooltiplink1246832" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=812"><span id="tooltip1246832" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1246832" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=812" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e08c85">
+            MG
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=812">Matheus Gavioli Ferreira</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1246832').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1246832')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">E-mail</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14204</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14204" href="/front/ticket.form.php?id=14204">Semana da Engenharia 17h - 09.10.23</a> <div id="contentTicket14204" class="tooltip-invisible"><p>suporte ao evento</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14204').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14204')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #221fff; border: 1px solid #ffffff; color: #ffffff">Eventos</span><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff"><span style="display:none">, </span>Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 07:28</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Paulo Henrique Santana <a id="tooltiplink628836936" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=821"><span id="tooltip628836936" class="fas fa-info fa-fw"></span></a><div id="contenttooltip628836936" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=821" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/51/821_63a9cb6b41e51_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=821">Paulo Henrique Santana</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip628836936').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip628836936')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">Eventos</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14203</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14203" href="/front/ticket.form.php?id=14203">Visita virtual do MEC 10.11.23 - Geografia</a> <div id="contentTicket14203" class="tooltip-invisible"><p>suporte</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14203').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14203')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #221fff; border: 1px solid #ffffff; color: #ffffff">Eventos</span><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff"><span style="display:none">, </span>Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 07:22</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Paulo Henrique Santana <a id="tooltiplink115705336" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=821"><span id="tooltip115705336" class="fas fa-info fa-fw"></span></a><div id="contenttooltip115705336" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=821" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/51/821_63a9cb6b41e51_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=821">Paulo Henrique Santana</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip115705336').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip115705336')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">Eventos</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14202</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14202" href="/front/ticket.form.php?id=14202">Visita virtual do MEC 09.11.23 - Geografia</a> <div id="contentTicket14202" class="tooltip-invisible"><p>suporte</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14202').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14202')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #221fff; border: 1px solid #ffffff; color: #ffffff">Eventos</span><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff"><span style="display:none">, </span>Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 07:21</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Paulo Henrique Santana <a id="tooltiplink154349795" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=821"><span id="tooltip154349795" class="fas fa-info fa-fw"></span></a><div id="contenttooltip154349795" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=821" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/51/821_63a9cb6b41e51_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=821">Paulo Henrique Santana</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip154349795').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip154349795')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">Eventos</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14201</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14201" href="/front/ticket.form.php?id=14201">Visita virtual do MEC 08.11.23 - Geografia</a> <div id="contentTicket14201" class="tooltip-invisible"><p>suporte</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14201').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14201')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #221fff; border: 1px solid #ffffff; color: #ffffff">Eventos</span><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff"><span style="display:none">, </span>Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">09-10-2023 07:20</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Paulo Henrique Santana <a id="tooltiplink272596313" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=821"><span id="tooltip272596313" class="fas fa-info fa-fw"></span></a><div id="contenttooltip272596313" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=821" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/51/821_63a9cb6b41e51_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=821">Paulo Henrique Santana</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip272596313').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip272596313')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">Eventos</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">14152</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket14152" href="/front/ticket.form.php?id=14152">Verificar relatório de equipamentos dos laboratórios</a> <div id="contentTicket14152" class="tooltip-invisible"><p>Conferir documentação e atualizar</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket14152').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket14152')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #34b3c0; border: 1px solid #ffffff; color: #ffffff">Helpdesk</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">07-10-2023 11:41</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Philip Tirlone <a id="tooltiplink1443611756" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=202"><span id="tooltip1443611756" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1443611756" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=202" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/7e/202_636c37e311d7e_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=202">Philip Tirlone</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1443611756').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1443611756')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script> <span id="tooltip1971483990" class="fas fa-comments fa-fw"></span><div id="contenttooltip1971483990" class="tooltip-invisible"><div class="fup-popup">Philip Tirlone <a id="tooltiplink1443611756" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=202"><span id="tooltip1443611756" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1443611756" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=202" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/7e/202_636c37e311d7e_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=202">Philip Tirlone</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1443611756').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1443611756')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script><br>Isabelly Jessica Alves Gomes de Santana <a id="tooltiplink567858618" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=2361"><span id="tooltip567858618" class="fas fa-info fa-fw"></span></a><div id="contenttooltip567858618" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=2361" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #527fe0">
+            IA
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=2361">Isabelly Jessica Alves Gomes de Santana</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip567858618').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip567858618')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script><br></div></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1971483990').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1971483990'), title: {text: ' ',button: true}}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                },show: 'click', hide: false,});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">11394</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket11394" href="/front/ticket.form.php?id=11394">Aba Inscritos - detalhes - Polos EAD</a> <div id="contentTicket11394" class="tooltip-invisible"><p>Leo Pimenta, do setor de gestão de polos encaminhou:</p>
+<div class="x_elementToProof">Polos entraram em contato informando que na Aba Inscritos, no campo detalhes, quando o Polo clica não aparece as informações do aluno, e também não aparece a documentação postada do mesmo.</div>
+<div class="x_elementToProof"> </div>
+<div class="x_elementToProof">Isso é de extrema importancia para os Polos pois os mesmos utilizam esses dados para verificação de documentação postada, para que não haja nenhum problema em uma possivel análise.</div>
+<div class="x_elementToProof"> </div>
+<div class="x_elementToProof">E também como forma de captação, muitas vezes esses alunos não ingressam em um determinado período, como fazem o contato com antigos potenciais alunos já captados, sendo assim tendo essa documentação eles conseguem extrair e anexar junto ao aluno a documentação que já foi uma vez postada.</div>
+<div class="x_elementToProof"> </div>
+<div class="x_elementToProof">
+<div class="x_elementToProof">Segue abaixo alguns nomes</div>
+<div class="x_elementToProof"> </div>
+<div class="x_elementToProof">Karine Fernanda Martins - CPF: 096.580.536-02</div>
+<div class="x_elementToProof">Sérgio Murilo Rosa - CPF: 696.600.776-53</div>
+<div class="x_elementToProof">Kery Cristian Moura - CPF: 073.594.266-85</div>
+<div class="x_elementToProof">Lucileide de Araújo Lopo - CPF: 044.361.976-03</div>
+<div class="x_elementToProof"> </div>
+<div class="x_elementToProof">Pediram verificação.</div>
+</div></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket11394').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket11394')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #ffc800; border: 1px solid #000000; color: #000000">Desenvolvimento</span><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #DDDDDD; border: 1px solid #000000; color: #000000"><span style="display:none">, </span>Sites</span><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #DDDDDD; border: 1px solid #000000; color: #000000"><span style="display:none">, </span>Polos</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">07-10-2023 10:37</span></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Diego Andrade Matos <a id="tooltiplink1957371200" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=563"><span id="tooltip1957371200" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1957371200" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=563" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #81a7e4">
+            DA
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=563">Diego Andrade Matos</a>
+                     </h4>
+
+         <div class="text-muted">
+                           <div>
+                  <i class="fas fa-fw fa-envelope"></i>
+                  <a href="mailto:diegomatos@unisanta.br">diegomatos@unisanta.br</a>
+               </div>
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I - CPD
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  CPD
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1957371200').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1957371200')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top">Sistema/Recurso</td>
+
+                                       
+                                                   </tr>
+                           </tbody>
+   </table>
+         </div>
+         <span class="main-label">
+            <a href='/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=1&reset=reset'>Chamados novos</a>
+         </span>
+         <i class="main-icon ti ti-alert-circle"></i>
+      </div>";}

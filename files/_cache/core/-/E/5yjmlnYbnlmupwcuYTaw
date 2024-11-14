@@ -1,0 +1,37 @@
+1695405410
+aa5c04c6f64f4f5392091746b4bb30c982f26f49
+a:1:{s:62:"bn_count_tickets_incoming_805b5662-f5ae-4426-afd8-ab68aad325b0";s:1272:"      <style>
+         #bn_589897833 {
+            background-color: #8fce00;
+            color: #010200;
+         }
+
+         #bn_589897833:hover {
+            background-color: #5a8200;
+            border: 1px solid #253500;
+         }
+
+         .theme-dark #bn_589897833 {
+            background-color: #010200;
+            color: #8fce00;
+         }
+
+         .theme-dark #bn_589897833:hover {
+            background-color: #5a8200;
+            color: #010200;
+            border: 1px solid #253500;
+         }
+      </style>
+      <a href='/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=1&reset=reset'
+         id="bn_589897833"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="65"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">65</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Incoming tickets">Incoming tickets</div>
+         <i class="main-icon ti ti-alert-circle"></i>
+      </a>";}
