@@ -36,10 +36,9 @@
 /// Class RequestType
 class RequestType extends CommonDropdown
 {
-    //ALTERAÇÃO: label do dropdown
     public static function getTypeName($nb = 0)
     {
-        return 'Enviar para (setor)';
+        return _n('Request source', 'Request sources', $nb);
     }
 
 
