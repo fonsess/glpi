@@ -1,0 +1,73 @@
+2023-11-06 10:21:45 [739@GLPI-WINDOWS]
+User ID: 739 tried to access or perform an action on /front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\Session.php:943 displayRightError()
+		C:\xampp\htdocs\glpi\front\central.php:80 checkCentralAccess()
+2023-11-06 10:37:29 [812@GLPI-WINDOWS]
+CSRF check failed for User ID: 812 at /front/ticket.form.php2023-11-06 10:37:33 [812@GLPI-WINDOWS]
+CSRF check failed for User ID: 812 at /front/ticket.form.php2023-11-06 10:37:36 [812@GLPI-WINDOWS]
+CSRF check failed for User ID: 812 at /front/ticket.form.php2023-11-06 11:33:22 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/ticket.form.php2023-11-06 12:25:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/fileupload.php2023-11-06 12:25:29 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /front/itilsolution.form.php2023-11-06 13:00:32 [181@GLPI-WINDOWS]
+CSRF check failed for User ID: 181 at /front/ticket.form.php2023-11-06 13:16:20 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /front/itilsolution.form.php2023-11-06 13:20:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/central.php2023-11-06 13:20:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/central.php2023-11-06 13:20:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/central.php2023-11-06 13:20:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/central.php2023-11-06 13:20:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/central.php2023-11-06 13:20:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/central.php2023-11-06 15:18:28 [2340@GLPI-WINDOWS]
+User ID: 2340 tried to access or perform an action on /front/ticket.form.php?id=15791& with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6354 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6444 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\ticket.form.php:259 displayFullPageForItem()
+2023-11-06 15:18:30 [2340@GLPI-WINDOWS]
+User ID: 2340 tried to access or perform an action on /front/ticket.form.php?id=15791& with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6354 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6444 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\ticket.form.php:259 displayFullPageForItem()
+2023-11-06 15:24:43 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/fileupload.php2023-11-06 15:24:57 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /front/ticket.form.php?id=157862023-11-06 15:31:11 [2340@GLPI-WINDOWS]
+User ID: 2340 tried to access or perform an action on /front/ticket.form.php?id=15791& with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6354 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6444 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\ticket.form.php:259 displayFullPageForItem()
+2023-11-06 15:36:17 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /front/itilfollowup.form.php2023-11-06 15:36:53 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /front/itilfollowup.form.php2023-11-06 16:54:20 [181@GLPI-WINDOWS]
+CSRF check failed for User ID: 181 at /front/itilfollowup.form.php2023-11-06 17:29:46 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/getDropdownValue.php2023-11-06 17:35:51 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/getDropdownValue.php2023-11-06 17:35:52 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/getDropdownValue.php2023-11-06 20:37:38 [317@GLPI-WINDOWS]
+CSRF check failed for User ID: 317 at /front/ticket.form.php?id=158272023-11-06 20:37:47 [317@GLPI-WINDOWS]
+CSRF check failed for User ID: 317 at /front/ticket.form.php?id=158272023-11-07 07:52:00 [317@GLPI-WINDOWS]
+CSRF check failed for User ID: 317 at /front/ticket.form.php?id=158302023-11-07 10:11:11 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/itilfollowup.form.php2023-11-07 10:30:41 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/actors.php2023-11-07 10:30:42 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/actors.php2023-11-07 10:30:48 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/actors.php2023-11-07 10:30:49 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/actors.php2023-11-07 10:30:50 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/actors.php2023-11-07 10:30:50 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/actors.php2023-11-07 10:30:52 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /ajax/actors.php2023-11-07 11:32:03 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/ticket.form.php2023-11-07 12:21:43 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/ticket.form.php2023-11-07 12:21:43 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/ticket.form.php2023-11-07 12:43:31 [414@GLPI-WINDOWS]
+CSRF check failed for User ID: 414 at /front/itilfollowup.form.php2023-11-07 13:45:32 [@GLPI-WINDOWS]
+CSRF check failed for User ID:  at /front/ticket.form.php?id=157672023-11-07 17:02:30 [181@GLPI-WINDOWS]
+CSRF check failed for User ID: 181 at /front/ticket.form.php2023-11-07 17:24:55 [424@GLPI-WINDOWS]
+CSRF check failed for User ID: 424 at /front/itilfollowup.form.php2023-11-07 19:02:07 [492@GLPI-WINDOWS]
+CSRF check failed for User ID: 492 at /front/ticket.form.php2023-11-08 09:18:54 [317@GLPI-WINDOWS]
+CSRF check failed for User ID: 317 at /front/ticket.form.php?id=159402023-11-08 09:20:59 [317@GLPI-WINDOWS]
+CSRF check failed for User ID: 317 at /front/ticket.form.php?id=159442023-11-08 09:49:22 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/ticket.form.php2023-11-08 09:49:23 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/ticket.form.php2023-11-08 09:51:42 [225@GLPI-WINDOWS]
+CSRF check failed for User ID: 225 at /front/ticket.form.php2024-11-14 07:32:39 [@FONSES-USC]
+CSRF check failed for User ID:  at /index.php2024-11-14 07:36:43 [@FONSES-USC]
+CSRF check failed for User ID:  at /front/login.php2024-11-14 07:54:12 [@FONSES-USC]
+CSRF check failed for User ID:  at /front/login.php

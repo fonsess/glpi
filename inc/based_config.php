@@ -38,7 +38,8 @@ if (!defined('GLPI_ROOT')) {
 }
 
 // Notice problem  for date function :
-$tz = ini_get('date.timezone');
+//$tz = ini_get('date.timezone');
+$tz = "America/Sao_Paulo";
 if (!empty($tz)) {
     date_default_timezone_set($tz);
 } else {

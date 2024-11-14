@@ -1,0 +1,37 @@
+1691850687
+efc2d602ffac1fff460fbe4419da7e3ef9298c56
+a:1:{s:54:"bn_count_Software_60091467-2137-49f4-8834-f6602a482079";s:1144:"      <style>
+         #bn_1950635475 {
+            background-color: #d1f1a8;
+            color: #70b11c;
+         }
+
+         #bn_1950635475:hover {
+            background-color: #aee666;
+            border: 1px solid #8bdc24;
+         }
+
+         .theme-dark #bn_1950635475 {
+            background-color: #70b11c;
+            color: #d1f1a8;
+         }
+
+         .theme-dark #bn_1950635475:hover {
+            background-color: #aee666;
+            color: #70b11c;
+            border: 1px solid #8bdc24;
+         }
+      </style>
+      <a href='/front/software.php?reset=reset'
+         id="bn_1950635475"
+         class="card big-number  filter-dates filter-dates_mod filter-location filter-manufacturer filter-group_tech filter-user_tech"
+         title="">
+         <span class="content">            <span title="7683"
+                  class="formatted-number"
+                  data-precision='1'>
+               <span class="number">7.7</span>
+               <span class="suffix">K</span>
+            </span></span>
+         <div class="label" title="Softwares">Softwares</div>
+         <i class="main-icon ti ti-apps"></i>
+      </a>";}

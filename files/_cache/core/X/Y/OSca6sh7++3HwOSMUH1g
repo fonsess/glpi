@@ -1,0 +1,37 @@
+1698502345
+9cd6d255911f5baa23713a4e2b00677c899f7c72
+a:1:{s:57:"bn_count_KnowbaseItemf30bbf9f-2e82-4bd9-b0e0-fe388c9d1164";s:1092:"      <style>
+         #bn_976866801 {
+            background-color: #c9c9c9;
+            color: #636363;
+         }
+
+         #bn_976866801:hover {
+            background-color: #a3a3a3;
+            border: 1px solid #7d7d7d;
+         }
+
+         .theme-dark #bn_976866801 {
+            background-color: #636363;
+            color: #c9c9c9;
+         }
+
+         .theme-dark #bn_976866801:hover {
+            background-color: #a3a3a3;
+            color: #636363;
+            border: 1px solid #7d7d7d;
+         }
+      </style>
+      <a href='/front/knowbaseitem.php?reset=reset'
+         id="bn_976866801"
+         class="card big-number  filter-dates filter-dates_mod"
+         title="">
+         <span class="content">            <span title="5"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">5</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Base de Conhecimento">Base de Conhecimento</div>
+         <i class="main-icon ti ti-lifebuoy"></i>
+      </a>";}

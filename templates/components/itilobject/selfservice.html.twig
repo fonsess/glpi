@@ -123,17 +123,6 @@
         </div>
         <div class="card-body row mx-0">
             <div class="offset-md-1 col-md-8 col-xxl-6">
-               {{ fields.field(
-                  'type',
-                  item.dropdownType('type', {
-                     'value': params['type'],
-                     'width': '100%',
-                     'display': false,
-                     'on_change': 'this.form.submit()',
-                  }|merge(right_field_options)),
-                  _n('Type', 'Types', 1),
-                  right_field_options
-               ) }}
 
                {% set cat_params = right_field_options|merge({
                   'on_change': 'this.form.submit()',

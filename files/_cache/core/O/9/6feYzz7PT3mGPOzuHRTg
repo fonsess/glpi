@@ -1,0 +1,37 @@
+1698502341
+e7fb03236f98144c9676c9317a5f6206620f22f4
+a:1:{s:49:"bn_count_Rackebd6ac43-906f-440f-b810-a6bb41be0a68";s:1139:"      <style>
+         #bn_1995199727 {
+            background-color: #0e87a0;
+            color: #86e1f4;
+         }
+
+         #bn_1995199727:hover {
+            background-color: #14c2e6;
+            border: 1px solid #57d6f0;
+         }
+
+         .theme-dark #bn_1995199727 {
+            background-color: #86e1f4;
+            color: #0e87a0;
+         }
+
+         .theme-dark #bn_1995199727:hover {
+            background-color: #14c2e6;
+            color: #86e1f4;
+            border: 1px solid #57d6f0;
+         }
+      </style>
+      <a href='/front/rack.php?reset=reset'
+         id="bn_1995199727"
+         class="card big-number  filter-dates filter-dates_mod filter-location filter-manufacturer filter-group_tech filter-user_tech filter-state"
+         title="">
+         <span class="content">            <span title="0"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">0</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Rack">Rack</div>
+         <i class="main-icon ti ti-server"></i>
+      </a>";}

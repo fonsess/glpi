@@ -1,0 +1,37 @@
+1696867092
+3ff672db870173ce7a992b36b57187a145cc5572
+a:1:{s:61:"bn_count_tickets_waiting_af4a2372-53fa-4099-9da5-d33a3171da9d";s:1277:"      <style>
+         #bn_611211929 {
+            background-color: #e69138;
+            color: #492a09;
+         }
+
+         #bn_611211929:hover {
+            background-color: #ba6b17;
+            border: 1px solid #76440f;
+         }
+
+         .theme-dark #bn_611211929 {
+            background-color: #492a09;
+            color: #e69138;
+         }
+
+         .theme-dark #bn_611211929:hover {
+            background-color: #ba6b17;
+            color: #492a09;
+            border: 1px solid #76440f;
+         }
+      </style>
+      <a href='/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=4&reset=reset'
+         id="bn_611211929"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="16"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">16</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Chamados pendentes">Chamados pendentes</div>
+         <i class="main-icon fas fa-pause-circle"></i>
+      </a>";}

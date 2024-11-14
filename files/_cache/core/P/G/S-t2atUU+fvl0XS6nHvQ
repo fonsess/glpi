@@ -1,0 +1,37 @@
+1694877876
+0ad3c67f3a28aaf8d1cbc8f896100a9361ef323a
+a:1:{s:52:"bn_count_Ticket_d5bf3576-5033-40fb-bbdb-292294a7698e";s:1125:"      <style>
+         #bn_486012866 {
+            background-color: #ffd957;
+            color: #8a6b00;
+         }
+
+         #bn_486012866:hover {
+            background-color: #ffc80b;
+            border: 1px solid #bd9200;
+         }
+
+         .theme-dark #bn_486012866 {
+            background-color: #8a6b00;
+            color: #ffd957;
+         }
+
+         .theme-dark #bn_486012866:hover {
+            background-color: #ffc80b;
+            color: #8a6b00;
+            border: 1px solid #bd9200;
+         }
+      </style>
+      <a href='/front/ticket.php?reset=reset'
+         id="bn_486012866"
+         class="card big-number  filter-dates filter-dates_mod filter-requesttype filter-location filter-tickettype"
+         title="">
+         <span class="content">            <span title="13179"
+                  class="formatted-number"
+                  data-precision='1'>
+               <span class="number">13.2</span>
+               <span class="suffix">K</span>
+            </span></span>
+         <div class="label" title="Tickets">Tickets</div>
+         <i class="main-icon ti ti-alert-circle"></i>
+      </a>";}

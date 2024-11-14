@@ -1,0 +1,1025 @@
+1691069346
+730c3f20b032956f4be4350fa41afe12a6e88ab7
+a:1:{s:65:"table_count_tickets_incoming_3dbced15-8c77-4a42-8446-667a15563c57";s:53101:"      <style>
+         #search-table-312122549 .tab_cadrehov th {
+            background: #ededed;
+         }
+      </style>
+      <div
+         class="card search-table  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         id="search-table-312122549"
+         style="background-color: #fafafa; color: #545454">
+         <div class='table-container'>
+            <table class="search-results table card-table table-hover table-striped" id="search_1955568311">
+      <thead>
+         <tr>
+            
+            
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="2" data-nosort="true" data-sort-order="nosort">
+                                    ID
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="1" data-nosort="true" data-sort-order="nosort">
+                                    Título
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="10500" data-nosort="true" data-sort-order="nosort">
+                                    Plug-ins - Etiquetas
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="12" data-nosort="true" data-sort-order="nosort">
+                                    Status
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="15" data-nosort="true" data-sort-order="nosort">
+                                    Data de abertura
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="19" data-nosort="true" data-sort-order="nosort">
+                                    Última atualização
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="4" data-nosort="true" data-sort-order="nosort">
+                                    Requerente - Requerente
+                                 </th>
+                                                                                                                                    
+                                                                                                
+                              
+               <th data-searchopt-id="5" data-nosort="true" data-sort-order="nosort">
+                                    Atribuído - Técnico
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="7" data-nosort="true" data-sort-order="nosort">
+                                    Categoria
+                                 </th>
+                                                                                                                                    
+                                             
+                              
+               <th data-searchopt-id="83" data-nosort="true" data-sort-order="nosort">
+                                    Localização
+                                 </th>
+            
+                                 </tr>
+      </thead>
+      <tbody>
+                                    <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12408</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12408" href="/front/ticket.form.php?id=12408">Proxy</a> <div id="contentTicket12408" class="tooltip-invisible"><p>Ramal: 7193</p>
+<p>Solicitante: Samar</p>
+<p>Ocorrência: Proxy</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12408').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12408')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">03-08-2023 10:19</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">03-08-2023 10:19</span></td>
+
+                                                                                                                              <td valign="top">Maria Del Carmen Barreira Grande <a id="tooltiplink1118364894" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=634"><span id="tooltip1118364894" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1118364894" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=634" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e467a6">
+            MD
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=634">Maria Del Carmen Barreira Grande</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1118364894').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1118364894')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Computador</td>
+
+                                                                                                                              <td valign="top">EAJUD</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12406</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12406" href="/front/ticket.form.php?id=12406">Telefone Laboratório</a> <div id="contentTicket12406" class="tooltip-invisible"><div>
+<div class="DgV2h allowTextSelection l8Tnu">
+<div class="AvaBt">
+<div class="PW01N l8Tnu">
+<div class="o4zjZ ujrct T0iU0"><span class="OZZZK">Victor ivan Adei Hernandez Lara</span></div>
+</div>
+</div>
+</div>
+<div class="lDdSm l8Tnu">
+<div class="tVyQ7">
+<div class="kcAOr t9ThB" data-testid="RecipientWell">
+<div class="ow896">
+<div class="OFD1l MewUv"><label class="JRNiE WOwiK" contenteditable="false">Para:</label> Help Desk - UNISANTA
+<div class="dQqlA"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="srQCs">
+<div class="AL_OM l8Tnu I1wdR" data-testid="SentReceivedSavedTime">Qui, 03/08/2023 09:25</div>
+<div class="ug93r"> </div>
+</div>
+</div>
+</div>
+<div class="l8Tnu T3idP"> </div>
+<div class="XbIp4 jmmB7 GNqVo yxtKT allowTextSelection" tabindex="-1" role="region" aria-label="Corpo da mensagem">
+<div>
+<div class="rps_355f">
+<div dir="ltr">
+<div class="x_elementToProof">Bom dia, gostaria de solicitar a visita de algum dos seus técnicos aqui no laboratório de anatomia (sala B21-22) para avaliar o funcionamento do telefone daqui. Por algum motivo, ele não está fazendo ligações, e quando recebe alguma, toca apenas uma vez e para, além de não ser possível ouvir nada durante a ligação. <br aria-hidden="true"><br aria-hidden="true">Att, Victor Hernandez</div>
+</div>
+</div>
+</div>
+</div></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12406').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12406')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">03-08-2023 09:55</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">03-08-2023 09:55</span></td>
+
+                                                                                                                              <td valign="top">Gabriela Bichir <a id="tooltiplink736281400" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=486"><span id="tooltip736281400" class="fas fa-info fa-fw"></span></a><div id="contenttooltip736281400" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=486" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #85e09c">
+            GB
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=486">Gabriela Bichir</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip736281400').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip736281400')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Telefone</td>
+
+                                                                                                                              <td valign="top">Laboratório - B21 (Anatomia)</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12403</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12403" href="/front/ticket.form.php?id=12403">Reunião - Familia</a> <div id="contentTicket12403" class="tooltip-invisible"><p>Ramal: 5119</p>
+<p>Solicitante: Leandro - reitoria</p>
+<p>Ocorrência: Marcelinho pediu suporte para reunião da sala de Atos com familia</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12403').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12403')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">03-08-2023 09:27</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">03-08-2023 09:27</span></td>
+
+                                                                                                                              <td valign="top">Maria Del Carmen Barreira Grande <a id="tooltiplink1533332005" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=634"><span id="tooltip1533332005" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1533332005" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=634" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e467a6">
+            MD
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=634">Maria Del Carmen Barreira Grande</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1533332005').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1533332005')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">Sala de Atos</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12398</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12398" href="/front/ticket.form.php?id=12398">Instalar memória</a> <div id="contentTicket12398" class="tooltip-invisible"><p>Instalar memória ram de 2gb Ddr2 M538<br>A que estava foi retirada por má funcionamento</p>
+<p>A máquina está muito ruim. Se possível trocar a CPU</p>
+<p> </p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12398').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12398')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 21:34</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 21:36</span></td>
+
+                                                                                                                              <td valign="top">Camila Regina Silva de Almeida <a id="tooltiplink1769567810" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=820"><span id="tooltip1769567810" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1769567810" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=820" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/36/820_632e2bf460336_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=820">Camila Regina Silva de Almeida</a>
+                     </h4>
+
+         <div class="text-muted">
+                           <div>
+                  <i class="fas fa-fw fa-envelope"></i>
+                  <a href="mailto:camilaalmeida@unisanta.br">camilaalmeida@unisanta.br</a>
+               </div>
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1769567810').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1769567810')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Hardware</td>
+
+                                                                                                                              <td valign="top">Sala M538</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12391</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12391" href="/front/ticket.form.php?id=12391">Mudança de termo</a> <div id="contentTicket12391" class="tooltip-invisible"><p>Ramal:</p>
+<p>Solicitante: Direção Engenharia</p>
+<p>Ocorrência: </p>
+<p>Considerando que o termo helpdesk não é de amplo conhecimento, mais restrito à área técnica, sugiro mudar a divulgação e atendimento para o termo para Suporte, para imediata e melhor compreensão na linguagem corrente.</p>
+<p>Essa mudança é sugerida para toda a comunidade acadêmica.</p>
+<p>cordialmente</p>
+<p> </p>
+<p>Aureo</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12391').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12391')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 19:31</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 19:31</span></td>
+
+                                                                                                                              <td valign="top">Aureo Emanuel Pasqualeto Figueiredo <a id="tooltiplink1681983136" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=684"><span id="tooltip1681983136" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1681983136" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=684" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #5c64d6">
+            AE
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=684">Aureo Emanuel Pasqualeto Figueiredo</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                                                             </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1681983136').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1681983136')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">Direção de Engenharia</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12388</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12388" href="/front/ticket.form.php?id=12388">Laboratório M227</a> <div id="contentTicket12388" class="tooltip-invisible"><p>Colocar armários na salinha<br>Instalar impressora no micro do professor<br>Colocar caixa de som em local que não atrapalhe a locomoção.</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12388').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12388')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 19:02</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 19:02</span></td>
+
+                                                                                                                              <td valign="top">Camila Regina Silva de Almeida <a id="tooltiplink1565363077" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=820"><span id="tooltip1565363077" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1565363077" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=820" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style="background-image: url(/front/document.send.php?file=_pictures/36/820_632e2bf460336_min.jpg); background-color: inherit; ">
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=820">Camila Regina Silva de Almeida</a>
+                     </h4>
+
+         <div class="text-muted">
+                           <div>
+                  <i class="fas fa-fw fa-envelope"></i>
+                  <a href="mailto:camilaalmeida@unisanta.br">camilaalmeida@unisanta.br</a>
+               </div>
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1565363077').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1565363077')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">Laboratório - M227</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12356</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12356" href="/front/ticket.form.php?id=12356">Solicito cadastrar como nova Coordenadora do curso de Arquitetura e Urbanismo a Professora Cristina Ibrahim Ribas.</a> <div id="contentTicket12356" class="tooltip-invisible"><div>Prezados.</div>
+<div>
+<div> </div>
+<div id="x_x_Signature">
+<div>Solicito cadastrar como nova Coordenadora do curso de Arquitetura e Urbanismo a <strong>Professora Cristina Ibrahim Ribas.</strong></div>
+<div> </div>
+<div>Segue dados da Professora:</div>
+<div>Profa. CRISTINA IBRAHIM RIBAS</div>
+<div>CPF: 038.487.208-50</div>
+<div>DATA NASC.: 21/06/1960</div>
+<div> </div>
+<div>Substituição nos cadastros: ...</div>
+<div><strong>SISTEMA RM:</strong> Cadastrar e ter acesso como Coordenadora no RM;</div>
+<div><strong>PORTAL DO COORDENADOR:</strong> precisa ter acesso como coordenadora do curso.</div>
+<div> </div>
+<div>O Diretor Dr. Antonio (que nos lê em cópia) aguarda esta alteração com celeridade.</div>
+<div>Espero retorno dos setores responsáveis.</div>
+</div>
+</div></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12356').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12356')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"><span class="select2-search-choice tag_choice" style="padding-left:5px;background-color: #ffc800; border: 1px solid #000000; color: #000000">CPD</span></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 10:06</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 10:06</span></td>
+
+                                                                                                                              <td valign="top">Gabriela Bichir <a id="tooltiplink987478269" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=486"><span id="tooltip987478269" class="fas fa-info fa-fw"></span></a><div id="contenttooltip987478269" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=486" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #85e09c">
+            GB
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=486">Gabriela Bichir</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip987478269').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip987478269')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Criar usuário</td>
+
+                                                                                                                              <td valign="top">T.I - CPD</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12352</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12352" href="/front/ticket.form.php?id=12352">M 116 - Retirar equipamentos</a> <div id="contentTicket12352" class="tooltip-invisible"><p>Ramal: 7212</p>
+<p>Solicitante: Bruno</p>
+<p>Ocorrência:  Retirar equipamentos da sala M116 - e uma das impressora instalar no 4 º</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12352').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12352')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 09:37</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 09:37</span></td>
+
+                                                                                                                              <td valign="top">Maria Del Carmen Barreira Grande <a id="tooltiplink219543048" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=634"><span id="tooltip219543048" class="fas fa-info fa-fw"></span></a><div id="contenttooltip219543048" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=634" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #e467a6">
+            MD
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=634">Maria Del Carmen Barreira Grande</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip219543048').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip219543048')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">FIES</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12346</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12346" href="/front/ticket.form.php?id=12346">Micros do balcão estão muito lentos</a> <div id="contentTicket12346" class="tooltip-invisible"><p>Andrea - 5213</p>
+<p>Micros do balcão estão muito lentos</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12346').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12346')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 09:27</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 09:27</span></td>
+
+                                                                                                                              <td valign="top">Gabriela Bichir <a id="tooltiplink1048072544" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=486"><span id="tooltip1048072544" class="fas fa-info fa-fw"></span></a><div id="contenttooltip1048072544" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=486" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #85e09c">
+            GB
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=486">Gabriela Bichir</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip1048072544').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip1048072544')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Hardware</td>
+
+                                                                                                                              <td valign="top">Biblioteca - Bloco M (Central)</td>
+
+                                       
+                                                   </tr>
+                           <tr>
+                  
+                                                                                                         <td valign="top"><span class="text-nowrap">12343</span></td>
+
+                                                                                                                              <td valign="top"><a id="Ticket12343" href="/front/ticket.form.php?id=12343">Site para verificação do portal do aluno está apresentando erro</a> <div id="contentTicket12343" class="tooltip-invisible"><p>Kelly - 7027</p>
+<p>Site para verificação do portal do aluno está apresentando erro - o mesmo que já foi apresentado ontem</p></div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#Ticket12343').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contentTicket12343')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"><div class="tag_select select2-container" style="width: 100%;">
+                 <div class="select2-choices no-negative-margin"></div></div></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap"><i class="itilstatus fas fa-circle new me-1" title="Novo" data-bs-toggle="tooltip"></i> Novo</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 09:26</span></td>
+
+                                                                                                                              <td valign="top"><span class="text-nowrap">02-08-2023 09:26</span></td>
+
+                                                                                                                              <td valign="top">Gabriela Bichir <a id="tooltiplink89201042" class="dropdown_tooltip " target="_top" href="/front/user.form.php?id=486"><span id="tooltip89201042" class="fas fa-info fa-fw"></span></a><div id="contenttooltip89201042" class="tooltip-invisible">
+
+<div class="p-0 user-info-card">
+   <div class="row">
+      <div class="col pt-1">
+                     
+
+   <a href="/front/user.form.php?id=486" class="d-flex align-items-center">
+
+<span class="avatar avatar-md rounded" style=" background-color: #85e09c">
+            GB
+   </span>
+
+   
+   </a>
+
+               </div>
+      <div class="col-auto ms-2">
+         <h4 class="card-title mb-1">
+                           <a href="/front/user.form.php?id=486">Gabriela Bichir</a>
+                     </h4>
+
+         <div class="text-muted">
+                                                               <div title="Localização" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-map-marker-alt"></i>
+                  T.I -  Informatica/Helpdesk
+               </div>
+                                                               <div title="Grupo padrão" data-bs-toggle="tooltip" data-bs-placement="top">
+                  <i class="fas fa-fw fa-users"></i>
+                  TI
+               </div>
+                     </div>
+      </div>
+
+         </div>
+</div>
+</div><script type="text/javascript">
+//<![CDATA[
+
+$(function(){$('#tooltip89201042').qtip({
+         position: { viewport: $(window) },
+         content: {text: $('#contenttooltip89201042')}, style: { classes: 'qtip-shadow qtip-bootstrap'}, hide: {
+                  fixed: true,
+                  delay: 200,
+                  leave: false,
+                  when: { event: 'unfocus' }
+                }});});
+
+//]]>
+</script></td>
+
+                                                                                                                              <td valign="top"></td>
+
+                                                                                                                              <td valign="top">Outros</td>
+
+                                                                                                                              <td valign="top">Núcleo de Apoio (M437)</td>
+
+                                       
+                                                   </tr>
+                           </tbody>
+   </table>
+         </div>
+         <span class="main-label">
+            <a href='/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=1&reset=reset'>Chamados novos</a>
+         </span>
+         <i class="main-icon ti ti-alert-circle"></i>
+      </div>";}

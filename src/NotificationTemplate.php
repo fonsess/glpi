@@ -304,7 +304,8 @@ class NotificationTemplate extends CommonDBTM
                         ? Sanitizer::decodeHtmlSpecialChars($this->fields['css'])
                         : '';
 
-                    $lang['content_html'] =
+                    $lang['content_html'] = $template_datas['content_html'];
+					/*
                      "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
                         'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>" .
                      "<html>
@@ -321,6 +322,7 @@ class NotificationTemplate extends CommonDBTM
                      "<br>$footer_string" .
                      "<br><br>\n" . (!empty($add_footer) ? $add_footer . "\n<br><br>" : '') .
                      "\n</body></html>";
+					 */
                 }
 
                 $signature_text = RichText::getTextFromHtml($this->signature, false, false);
